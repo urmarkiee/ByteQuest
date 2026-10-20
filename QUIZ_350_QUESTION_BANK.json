@@ -1,0 +1,4902 @@
+[
+  {
+    "topic": "NUM",
+    "question": "Which two digits are used in the binary number system?",
+    "options": [
+      "0 and 1",
+      "1 and 2",
+      "0 and 9",
+      "2 and 8"
+    ],
+    "correct": 0,
+    "explanation": "Binary is base 2 and uses only the symbols 0 and 1.",
+    "referencePoint": 3,
+    "id": "NUM01"
+  },
+  {
+    "topic": "NUM",
+    "question": "What is 0101 in decimal?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "10"
+    ],
+    "correct": 1,
+    "explanation": "0101 = 0×8 + 1×4 + 0×2 + 1×1 = 5.",
+    "referencePoint": 2,
+    "id": "NUM02"
+  },
+  {
+    "topic": "NUM",
+    "question": "What is 1000 in decimal?",
+    "options": [
+      "1",
+      "4",
+      "8",
+      "10"
+    ],
+    "correct": 2,
+    "explanation": "Only the 8-place is turned on, so 1000₂ = 8₁₀.",
+    "referencePoint": 1,
+    "id": "NUM03"
+  },
+  {
+    "topic": "NUM",
+    "question": "What is the decimal value of 0011?",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "7"
+    ],
+    "correct": 1,
+    "explanation": "0011 turns on the 2-place and 1-place: 2 + 1 = 3.",
+    "referencePoint": 2,
+    "id": "NUM04"
+  },
+  {
+    "topic": "NUM",
+    "question": "Which four-bit binary number represents decimal 9?",
+    "options": [
+      "1001",
+      "1010",
+      "0110",
+      "1100"
+    ],
+    "correct": 0,
+    "explanation": "Decimal 9 = 8 + 1, which turns on the leftmost and rightmost bits.",
+    "referencePoint": 2,
+    "id": "NUM05"
+  },
+  {
+    "topic": "NUM",
+    "question": "What is 1111 in decimal?",
+    "options": [
+      "8",
+      "12",
+      "14",
+      "15"
+    ],
+    "correct": 3,
+    "explanation": "All four places are active: 8 + 4 + 2 + 1 = 15.",
+    "referencePoint": 2,
+    "id": "NUM06"
+  },
+  {
+    "topic": "NUM",
+    "question": "Which place values match four binary bits from left to right?",
+    "options": [
+      "1, 2, 4, 8",
+      "8, 4, 2, 1",
+      "10, 100, 1000, 10000",
+      "2, 3, 4, 5"
+    ],
+    "correct": 1,
+    "explanation": "Each position doubles going left: 8, 4, 2, 1.",
+    "referencePoint": 0,
+    "id": "NUM07"
+  },
+  {
+    "topic": "NUM",
+    "question": "What is the place value of the rightmost bit in a four-bit binary number?",
+    "options": [
+      "8",
+      "4",
+      "2",
+      "1"
+    ],
+    "correct": 3,
+    "explanation": "The rightmost bit has value 1; the place values double to the left.",
+    "referencePoint": 0,
+    "id": "NUM08"
+  },
+  {
+    "topic": "LOG",
+    "question": "For inputs A=1 and B=1, what is A AND B?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "Undefined"
+    ],
+    "correct": 1,
+    "explanation": "AND is 1 only when both inputs are 1.",
+    "referencePoint": 0,
+    "id": "LOG01"
+  },
+  {
+    "topic": "LOG",
+    "question": "For A=1 and B=0, what is A AND B?",
+    "options": [
+      "0",
+      "1",
+      "10",
+      "Undefined"
+    ],
+    "correct": 0,
+    "explanation": "AND requires both inputs to be 1; here one is 0.",
+    "referencePoint": 0,
+    "id": "LOG02"
+  },
+  {
+    "topic": "LOG",
+    "question": "For A=0 and B=0, what is A OR B?",
+    "options": [
+      "1",
+      "0",
+      "2",
+      "Undefined"
+    ],
+    "correct": 1,
+    "explanation": "OR returns 1 when at least one input is 1; neither is on.",
+    "referencePoint": 1,
+    "id": "LOG03"
+  },
+  {
+    "topic": "LOG",
+    "question": "For A=0 and B=1, what is A OR B?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "Undefined"
+    ],
+    "correct": 1,
+    "explanation": "OR is 1 because input B is 1.",
+    "referencePoint": 1,
+    "id": "LOG04"
+  },
+  {
+    "topic": "LOG",
+    "question": "For A=1 and B=1, what is A XOR B?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "Undefined"
+    ],
+    "correct": 0,
+    "explanation": "XOR returns 1 only for different inputs; 1 and 1 are equal.",
+    "referencePoint": 2,
+    "id": "LOG05"
+  },
+  {
+    "topic": "LOG",
+    "question": "For A=1 and B=0, what is A XOR B?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "Undefined"
+    ],
+    "correct": 1,
+    "explanation": "XOR returns 1 because the inputs are different.",
+    "referencePoint": 2,
+    "id": "LOG06"
+  },
+  {
+    "topic": "LOG",
+    "question": "When does a two-input XOR gate return 1?",
+    "options": [
+      "Only for 0 and 0",
+      "Only for 1 and 1",
+      "When the two inputs differ",
+      "Whenever A is 1"
+    ],
+    "correct": 2,
+    "explanation": "The truth table gives XOR=1 for 01 or 10.",
+    "referencePoint": 2,
+    "id": "LOG07"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which Kotlin keyword declares a read-only variable reference?",
+    "options": [
+      "var",
+      "val",
+      "new",
+      "let"
+    ],
+    "correct": 1,
+    "explanation": "val declares a value that cannot be reassigned in the same scope.",
+    "referencePoint": 0,
+    "id": "PRG01"
+  },
+  {
+    "topic": "PRG",
+    "question": "What is printed by: val a = 3; val b = 4; println(a + b)?",
+    "options": [
+      "34",
+      "7",
+      "12",
+      "0"
+    ],
+    "correct": 1,
+    "explanation": "a+b evaluates to 3+4 = 7 before println shows the result.",
+    "referencePoint": 2,
+    "id": "PRG02"
+  },
+  {
+    "topic": "PRG",
+    "question": "What is 3 + 2 * 4 in Kotlin?",
+    "options": [
+      "20",
+      "14",
+      "11",
+      "24"
+    ],
+    "correct": 2,
+    "explanation": "Multiplication happens first: 2×4=8, then 3+8=11.",
+    "referencePoint": 1,
+    "id": "PRG03"
+  },
+  {
+    "topic": "PRG",
+    "question": "What is (3 + 2) * 4?",
+    "options": [
+      "11",
+      "20",
+      "14",
+      "9"
+    ],
+    "correct": 1,
+    "explanation": "Parentheses force 3+2=5 before multiplication: 5×4=20.",
+    "referencePoint": 1,
+    "id": "PRG04"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which line should normally come before println(result)?",
+    "options": [
+      "val result = 7",
+      "println(result)",
+      "result + 1",
+      "// end"
+    ],
+    "correct": 0,
+    "explanation": "result must be declared in scope before the code uses it.",
+    "referencePoint": 2,
+    "id": "PRG05"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which Kotlin function prints a line of text?",
+    "options": [
+      "scan()",
+      "read()",
+      "println()",
+      "input()"
+    ],
+    "correct": 2,
+    "explanation": "println displays the supplied value, followed by a newline.",
+    "referencePoint": 3,
+    "id": "PRG06"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which statement about val in Kotlin is correct?",
+    "options": [
+      "It always holds a string",
+      "It cannot be reassigned",
+      "It prints text",
+      "It means multiply"
+    ],
+    "correct": 1,
+    "explanation": "A val reference is read-only after initialization.",
+    "referencePoint": 0,
+    "id": "PRG07"
+  },
+  {
+    "topic": "PRG",
+    "question": "For val a=3; val b=2; println(a+b*2), what is printed?",
+    "options": [
+      "10",
+      "5",
+      "7",
+      "12"
+    ],
+    "correct": 2,
+    "explanation": "b×2 is 4, then 3+4 = 7 because multiplication has higher precedence.",
+    "referencePoint": 1,
+    "id": "PRG08"
+  },
+  {
+    "topic": "DBG",
+    "question": "Which Kotlin operator tests two values for equality?",
+    "options": [
+      "=",
+      "==",
+      "=>",
+      "=!"
+    ],
+    "correct": 1,
+    "explanation": "== checks whether values are equal; = is used for assignment.",
+    "referencePoint": 0,
+    "id": "DBG01"
+  },
+  {
+    "topic": "DBG",
+    "question": "Which operator assigns a value to a mutable Kotlin variable?",
+    "options": [
+      "==",
+      "=",
+      ">=",
+      "!="
+    ],
+    "correct": 1,
+    "explanation": "The single equals sign (=) assigns a value; == compares.",
+    "referencePoint": 0,
+    "id": "DBG02"
+  },
+  {
+    "topic": "DBG",
+    "question": "Is score >= 10 true when score is 10?",
+    "options": [
+      "Yes",
+      "No",
+      "Only if score is 11",
+      "It is always false"
+    ],
+    "correct": 0,
+    "explanation": "Greater than or equal includes 10 itself.",
+    "referencePoint": 1,
+    "id": "DBG03"
+  },
+  {
+    "topic": "DBG",
+    "question": "Is score >= 10 true when score is 9?",
+    "options": [
+      "Yes",
+      "No",
+      "Only on Android",
+      "It depends on the font"
+    ],
+    "correct": 1,
+    "explanation": "9 is below the minimum boundary of 10.",
+    "referencePoint": 1,
+    "id": "DBG04"
+  },
+  {
+    "topic": "DBG",
+    "question": "Which set best tests the boundary of score >= 10?",
+    "options": [
+      "0, 1, 2",
+      "9, 10, 11",
+      "20, 30, 40",
+      "1, 5, 100"
+    ],
+    "correct": 1,
+    "explanation": "Check just below the threshold (9), at it (10), and above it (11).",
+    "referencePoint": 2,
+    "id": "DBG05"
+  },
+  {
+    "topic": "DBG",
+    "question": "What is the result of 10 < 10?",
+    "options": [
+      "True",
+      "False",
+      "10",
+      "Error"
+    ],
+    "correct": 1,
+    "explanation": "Less-than is strict. Equal values do not satisfy <.",
+    "referencePoint": 3,
+    "id": "DBG06"
+  },
+  {
+    "topic": "DBG",
+    "question": "Which expression allows score 10 but rejects score 11?",
+    "options": [
+      "score < 10",
+      "score <= 10",
+      "score > 10",
+      "score == 11"
+    ],
+    "correct": 1,
+    "explanation": "score <= 10 includes 10 and any smaller values but excludes 11.",
+    "referencePoint": 3,
+    "id": "DBG07"
+  },
+  {
+    "topic": "NET",
+    "question": "What does DNS primarily do?",
+    "options": [
+      "Power a computer",
+      "Translate domain names to IP addresses",
+      "Display images",
+      "Connect USB devices"
+    ],
+    "correct": 1,
+    "explanation": "DNS finds the IP address associated with a hostname, when needed.",
+    "referencePoint": 1,
+    "id": "NET01"
+  },
+  {
+    "topic": "NET",
+    "question": "Which service helps a browser find the IP address for example.com?",
+    "options": [
+      "HDMI",
+      "DNS",
+      "RAM",
+      "Bluetooth"
+    ],
+    "correct": 1,
+    "explanation": "DNS is responsible for resolving domain names such as example.com.",
+    "referencePoint": 1,
+    "id": "NET02"
+  },
+  {
+    "topic": "NET",
+    "question": "Before reaching another network, which information does a device usually need?",
+    "options": [
+      "A screen resolution",
+      "An IP configuration",
+      "A text editor",
+      "A printer driver"
+    ],
+    "correct": 1,
+    "explanation": "IP addressing and related network configuration are needed for normal communication.",
+    "referencePoint": 0,
+    "id": "NET03"
+  },
+  {
+    "topic": "NET",
+    "question": "Which step should happen first when using a new Wi-Fi network?",
+    "options": [
+      "Send an HTTPS request",
+      "Resolve a remote hostname",
+      "Connect to the Wi-Fi network",
+      "Display a web page"
+    ],
+    "correct": 2,
+    "explanation": "First connect to the network; address setup and requests can follow.",
+    "referencePoint": 0,
+    "id": "NET04"
+  },
+  {
+    "topic": "NET",
+    "question": "After resolving a website hostname, which step can the browser take?",
+    "options": [
+      "Remove RAM",
+      "Send an HTTPS request",
+      "Install a CPU",
+      "Format a drive"
+    ],
+    "correct": 1,
+    "explanation": "Once the destination is known and reachable, a request can be sent.",
+    "referencePoint": 2,
+    "id": "NET05"
+  },
+  {
+    "topic": "NET",
+    "question": "A site loads by IP address but not by its domain name. What should you check?",
+    "options": [
+      "DNS configuration",
+      "Monitor cable",
+      "Mouse battery",
+      "CPU cooler"
+    ],
+    "correct": 0,
+    "explanation": "Name resolution is suspect if the IP route works but the name lookup fails.",
+    "referencePoint": 1,
+    "id": "NET06"
+  },
+  {
+    "topic": "NET",
+    "question": "If both direct-IP access and domain-name access fail, what should you check first?",
+    "options": [
+      "Text size",
+      "Basic network connectivity",
+      "Your keyboard layout",
+      "Battery percentage"
+    ],
+    "correct": 1,
+    "explanation": "First verify connectivity and IP configuration; DNS alone may not explain both failures.",
+    "referencePoint": 0,
+    "id": "NET07"
+  },
+  {
+    "topic": "ALG",
+    "question": "Which flowchart symbol typically marks the start of an algorithm?",
+    "options": [
+      "Terminator (oval)",
+      "Decision (diamond)",
+      "Data store (cylinder)",
+      "Process (rectangle)"
+    ],
+    "correct": 0,
+    "explanation": "Start and End are represented with terminators.",
+    "referencePoint": 0,
+    "id": "ALG01"
+  },
+  {
+    "topic": "ALG",
+    "question": "When computing the square of a user-provided number, what comes before calculation?",
+    "options": [
+      "Display result",
+      "Read the input number",
+      "End program",
+      "Clear the screen"
+    ],
+    "correct": 1,
+    "explanation": "An input must be available before it can be squared.",
+    "referencePoint": 1,
+    "id": "ALG02"
+  },
+  {
+    "topic": "ALG",
+    "question": "What should happen before displaying a calculated answer?",
+    "options": [
+      "Delete the input",
+      "Perform the calculation",
+      "Restart the algorithm",
+      "Ignore the number"
+    ],
+    "correct": 1,
+    "explanation": "Compute the result first, then use it in the output step.",
+    "referencePoint": 2,
+    "id": "ALG03"
+  },
+  {
+    "topic": "ALG",
+    "question": "Which flowchart symbol typically marks the end of an algorithm?",
+    "options": [
+      "Diamond",
+      "Arrow",
+      "Terminator (oval)",
+      "Input parallelogram"
+    ],
+    "correct": 2,
+    "explanation": "A terminator can mark both Start and End.",
+    "referencePoint": 0,
+    "id": "ALG04"
+  },
+  {
+    "topic": "ALG",
+    "question": "What does an algorithm describe?",
+    "options": [
+      "A computer brand",
+      "Steps to solve a problem",
+      "A random folder",
+      "Only a picture"
+    ],
+    "correct": 1,
+    "explanation": "Algorithms specify an ordered method to complete a task.",
+    "referencePoint": 3,
+    "id": "ALG05"
+  },
+  {
+    "topic": "ALG",
+    "question": "Which order correctly computes and shows n squared?",
+    "options": [
+      "Display, Input, Calculate",
+      "Input, Calculate, Display",
+      "Calculate, End, Input",
+      "End, Start, Input"
+    ],
+    "correct": 1,
+    "explanation": "Read n, compute n×n, then show the computed result.",
+    "referencePoint": 1,
+    "id": "ALG06"
+  },
+  {
+    "topic": "ALG",
+    "question": "Why should the display step come after a processing step?",
+    "options": [
+      "It saves electricity",
+      "It avoids using a result before it exists",
+      "It changes the CPU",
+      "It is always optional"
+    ],
+    "correct": 1,
+    "explanation": "Output needs the value created by the earlier processing step.",
+    "referencePoint": 2,
+    "id": "ALG07"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which computer component executes program instructions?",
+    "options": [
+      "SSD",
+      "CPU",
+      "PSU",
+      "Monitor"
+    ],
+    "correct": 1,
+    "explanation": "The CPU processes instructions and controls computation.",
+    "referencePoint": 0,
+    "id": "HWR01"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which component holds programs and working data temporarily?",
+    "options": [
+      "RAM",
+      "SSD",
+      "Case",
+      "PSU"
+    ],
+    "correct": 0,
+    "explanation": "RAM provides temporary working memory for active tasks.",
+    "referencePoint": 1,
+    "id": "HWR02"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which component keeps saved files when a PC is switched off?",
+    "options": [
+      "RAM",
+      "CPU register",
+      "SSD",
+      "CPU cache"
+    ],
+    "correct": 2,
+    "explanation": "An SSD retains files using nonvolatile storage.",
+    "referencePoint": 1,
+    "id": "HWR03"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which component supplies electrical power to other PC components?",
+    "options": [
+      "PSU",
+      "RAM",
+      "SSD",
+      "Keyboard"
+    ],
+    "correct": 0,
+    "explanation": "The power supply unit converts incoming power for PC components.",
+    "referencePoint": 2,
+    "id": "HWR04"
+  },
+  {
+    "topic": "HWR",
+    "question": "What usually happens to ordinary RAM contents when power is removed?",
+    "options": [
+      "They are stored permanently",
+      "They are lost",
+      "They move to the CPU",
+      "They print automatically"
+    ],
+    "correct": 1,
+    "explanation": "Most main RAM is volatile and needs power to retain its data.",
+    "referencePoint": 1,
+    "id": "HWR05"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which component-function pairing is correct?",
+    "options": [
+      "CPU = long-term file storage",
+      "PSU = runs Kotlin code",
+      "SSD = permanent file storage",
+      "RAM = supplies power"
+    ],
+    "correct": 2,
+    "explanation": "SSDs keep files across restarts; a CPU processes instructions, and a PSU supplies power.",
+    "referencePoint": 1,
+    "id": "HWR06"
+  },
+  {
+    "topic": "NUM",
+    "question": "Convert binary 00110 to decimal.",
+    "options": [
+      "7",
+      "5",
+      "6",
+      "8"
+    ],
+    "correct": 2,
+    "explanation": "Active positions in 00110 have weights 4 + 2 = 6.",
+    "referencePoint": 2,
+    "id": "NUM09"
+  },
+  {
+    "topic": "NUM",
+    "question": "Convert binary 00111 to decimal.",
+    "options": [
+      "9",
+      "7",
+      "8",
+      "6"
+    ],
+    "correct": 1,
+    "explanation": "Active positions in 00111 have weights 4 + 2 + 1 = 7.",
+    "referencePoint": 2,
+    "id": "NUM10"
+  },
+  {
+    "topic": "NUM",
+    "question": "Convert binary 01010 to decimal.",
+    "options": [
+      "11",
+      "12",
+      "9",
+      "10"
+    ],
+    "correct": 3,
+    "explanation": "Active positions in 01010 have weights 8 + 2 = 10.",
+    "referencePoint": 2,
+    "id": "NUM11"
+  },
+  {
+    "topic": "NUM",
+    "question": "Convert binary 01011 to decimal.",
+    "options": [
+      "12",
+      "10",
+      "11",
+      "13"
+    ],
+    "correct": 2,
+    "explanation": "Active positions in 01011 have weights 8 + 2 + 1 = 11.",
+    "referencePoint": 2,
+    "id": "NUM12"
+  },
+  {
+    "topic": "NUM",
+    "question": "Convert binary 01100 to decimal.",
+    "options": [
+      "13",
+      "14",
+      "12",
+      "11"
+    ],
+    "correct": 2,
+    "explanation": "Active positions in 01100 have weights 8 + 4 = 12.",
+    "referencePoint": 2,
+    "id": "NUM13"
+  },
+  {
+    "topic": "NUM",
+    "question": "Convert binary 01101 to decimal.",
+    "options": [
+      "13",
+      "14",
+      "12",
+      "15"
+    ],
+    "correct": 0,
+    "explanation": "Active positions in 01101 have weights 8 + 4 + 1 = 13.",
+    "referencePoint": 2,
+    "id": "NUM14"
+  },
+  {
+    "topic": "NUM",
+    "question": "Convert binary 01110 to decimal.",
+    "options": [
+      "13",
+      "16",
+      "14",
+      "15"
+    ],
+    "correct": 2,
+    "explanation": "Active positions in 01110 have weights 8 + 4 + 2 = 14.",
+    "referencePoint": 2,
+    "id": "NUM15"
+  },
+  {
+    "topic": "NUM",
+    "question": "Convert binary 10000 to decimal.",
+    "options": [
+      "15",
+      "18",
+      "17",
+      "16"
+    ],
+    "correct": 3,
+    "explanation": "Active positions in 10000 have weights 16 = 16.",
+    "referencePoint": 2,
+    "id": "NUM16"
+  },
+  {
+    "topic": "NUM",
+    "question": "Convert binary 10001 to decimal.",
+    "options": [
+      "18",
+      "19",
+      "17",
+      "16"
+    ],
+    "correct": 2,
+    "explanation": "Active positions in 10001 have weights 16 + 1 = 17.",
+    "referencePoint": 2,
+    "id": "NUM17"
+  },
+  {
+    "topic": "NUM",
+    "question": "Convert binary 10010 to decimal.",
+    "options": [
+      "17",
+      "19",
+      "20",
+      "18"
+    ],
+    "correct": 3,
+    "explanation": "Active positions in 10010 have weights 16 + 2 = 18.",
+    "referencePoint": 2,
+    "id": "NUM18"
+  },
+  {
+    "topic": "NUM",
+    "question": "Convert binary 10011 to decimal.",
+    "options": [
+      "18",
+      "21",
+      "19",
+      "20"
+    ],
+    "correct": 2,
+    "explanation": "Active positions in 10011 have weights 16 + 2 + 1 = 19.",
+    "referencePoint": 2,
+    "id": "NUM19"
+  },
+  {
+    "topic": "NUM",
+    "question": "Convert binary 10101 to decimal.",
+    "options": [
+      "21",
+      "22",
+      "23",
+      "20"
+    ],
+    "correct": 0,
+    "explanation": "Active positions in 10101 have weights 16 + 4 + 1 = 21.",
+    "referencePoint": 2,
+    "id": "NUM20"
+  },
+  {
+    "topic": "NUM",
+    "question": "Convert binary 10110 to decimal.",
+    "options": [
+      "21",
+      "23",
+      "22",
+      "24"
+    ],
+    "correct": 2,
+    "explanation": "Active positions in 10110 have weights 16 + 4 + 2 = 22.",
+    "referencePoint": 2,
+    "id": "NUM21"
+  },
+  {
+    "topic": "NUM",
+    "question": "Convert binary 11001 to decimal.",
+    "options": [
+      "26",
+      "24",
+      "27",
+      "25"
+    ],
+    "correct": 3,
+    "explanation": "Active positions in 11001 have weights 16 + 8 + 1 = 25.",
+    "referencePoint": 2,
+    "id": "NUM22"
+  },
+  {
+    "topic": "NUM",
+    "question": "Which five-bit binary representation equals decimal 2?",
+    "options": [
+      "00011",
+      "00010",
+      "00100",
+      "00001"
+    ],
+    "correct": 1,
+    "explanation": "Decimal 2 is written as 00010 in five-bit binary.",
+    "referencePoint": 2,
+    "id": "NUM23"
+  },
+  {
+    "topic": "NUM",
+    "question": "Which five-bit binary representation equals decimal 4?",
+    "options": [
+      "00011",
+      "00111",
+      "00101",
+      "00100"
+    ],
+    "correct": 3,
+    "explanation": "Decimal 4 is written as 00100 in five-bit binary.",
+    "referencePoint": 2,
+    "id": "NUM24"
+  },
+  {
+    "topic": "NUM",
+    "question": "Which five-bit binary representation equals decimal 7?",
+    "options": [
+      "00100",
+      "01000",
+      "00110",
+      "00111"
+    ],
+    "correct": 3,
+    "explanation": "Decimal 7 is written as 00111 in five-bit binary.",
+    "referencePoint": 2,
+    "id": "NUM25"
+  },
+  {
+    "topic": "NUM",
+    "question": "Which five-bit binary representation equals decimal 11?",
+    "options": [
+      "01100",
+      "01011",
+      "01000",
+      "01010"
+    ],
+    "correct": 1,
+    "explanation": "Decimal 11 is written as 01011 in five-bit binary.",
+    "referencePoint": 2,
+    "id": "NUM26"
+  },
+  {
+    "topic": "NUM",
+    "question": "Which five-bit binary representation equals decimal 12?",
+    "options": [
+      "01011",
+      "01101",
+      "01100",
+      "01111"
+    ],
+    "correct": 2,
+    "explanation": "Decimal 12 is written as 01100 in five-bit binary.",
+    "referencePoint": 2,
+    "id": "NUM27"
+  },
+  {
+    "topic": "NUM",
+    "question": "Which five-bit binary representation equals decimal 13?",
+    "options": [
+      "01111",
+      "01101",
+      "01110",
+      "01100"
+    ],
+    "correct": 1,
+    "explanation": "Decimal 13 is written as 01101 in five-bit binary.",
+    "referencePoint": 2,
+    "id": "NUM28"
+  },
+  {
+    "topic": "NUM",
+    "question": "Which five-bit binary representation equals decimal 14?",
+    "options": [
+      "01111",
+      "10000",
+      "01110",
+      "01101"
+    ],
+    "correct": 2,
+    "explanation": "Decimal 14 is written as 01110 in five-bit binary.",
+    "referencePoint": 2,
+    "id": "NUM29"
+  },
+  {
+    "topic": "NUM",
+    "question": "Which five-bit binary representation equals decimal 20?",
+    "options": [
+      "10101",
+      "10011",
+      "10100",
+      "10111"
+    ],
+    "correct": 2,
+    "explanation": "Decimal 20 is written as 10100 in five-bit binary.",
+    "referencePoint": 2,
+    "id": "NUM30"
+  },
+  {
+    "topic": "NUM",
+    "question": "Which five-bit binary representation equals decimal 23?",
+    "options": [
+      "10100",
+      "11000",
+      "10111",
+      "10110"
+    ],
+    "correct": 2,
+    "explanation": "Decimal 23 is written as 10111 in five-bit binary.",
+    "referencePoint": 2,
+    "id": "NUM31"
+  },
+  {
+    "topic": "NUM",
+    "question": "Which five-bit binary representation equals decimal 31?",
+    "options": [
+      "100000",
+      "11100",
+      "11110",
+      "11111"
+    ],
+    "correct": 3,
+    "explanation": "Decimal 31 is written as 11111 in five-bit binary.",
+    "referencePoint": 2,
+    "id": "NUM32"
+  },
+  {
+    "topic": "NUM",
+    "question": "What decimal place value does the sixth bit from the right represent?",
+    "options": [
+      "16",
+      "64",
+      "32",
+      "6"
+    ],
+    "correct": 2,
+    "explanation": "Binary place values are powers of two: the sixth place is 2^5 = 32.",
+    "referencePoint": 4,
+    "id": "NUM33"
+  },
+  {
+    "topic": "NUM",
+    "question": "How many different values can four bits represent?",
+    "options": [
+      "16",
+      "32",
+      "8",
+      "4"
+    ],
+    "correct": 0,
+    "explanation": "Each of four independent bits has two states, so 2^4 = 16 combinations.",
+    "referencePoint": 4,
+    "id": "NUM34"
+  },
+  {
+    "topic": "NUM",
+    "question": "What is the largest unsigned value stored in four bits?",
+    "options": [
+      "15",
+      "14",
+      "16",
+      "31"
+    ],
+    "correct": 0,
+    "explanation": "Four bits have 16 values numbered 0 through 15.",
+    "referencePoint": 4,
+    "id": "NUM35"
+  },
+  {
+    "topic": "NUM",
+    "question": "What is binary 1010 + binary 0001?",
+    "options": [
+      "1001",
+      "1110",
+      "1011",
+      "1100"
+    ],
+    "correct": 2,
+    "explanation": "1010 is 10; 0001 is 1; 11 is binary 1011.",
+    "referencePoint": 9,
+    "id": "NUM36"
+  },
+  {
+    "topic": "NUM",
+    "question": "What is binary 0011 + binary 0010?",
+    "options": [
+      "0110",
+      "0101",
+      "0010",
+      "1001"
+    ],
+    "correct": 1,
+    "explanation": "0011 = 3 and 0010 = 2; 3 + 2 = 5 = 0101.",
+    "referencePoint": 9,
+    "id": "NUM37"
+  },
+  {
+    "topic": "NUM",
+    "question": "What is binary 1110 - binary 0001?",
+    "options": [
+      "1111",
+      "1000",
+      "1011",
+      "1101"
+    ],
+    "correct": 3,
+    "explanation": "1110 = 14 and 0001 = 1, so the result is 13 = 1101.",
+    "referencePoint": 9,
+    "id": "NUM38"
+  },
+  {
+    "topic": "NUM",
+    "question": "For an unsigned value with no overflow, what does shifting bits left by one do?",
+    "options": [
+      "Adds 1",
+      "Multiplies the value by 2",
+      "Divides the value by 2",
+      "Clears every bit"
+    ],
+    "correct": 1,
+    "explanation": "A one-place left shift doubles the place value of every set bit if no bits are discarded.",
+    "referencePoint": 10,
+    "id": "NUM39"
+  },
+  {
+    "topic": "NUM",
+    "question": "For an unsigned value, what does shifting bits right by one do?",
+    "options": [
+      "Adds 2",
+      "Divides by 2 and drops any remainder",
+      "Multiplies by 2",
+      "Always makes the value 0"
+    ],
+    "correct": 1,
+    "explanation": "A right shift moves bits one place lower, producing integer division by 2.",
+    "referencePoint": 10,
+    "id": "NUM40"
+  },
+  {
+    "topic": "NUM",
+    "question": "What does one binary digit represent?",
+    "options": [
+      "A megabyte",
+      "A word",
+      "A bit",
+      "A byte"
+    ],
+    "correct": 2,
+    "explanation": "One 0-or-1 binary digit is called a bit.",
+    "referencePoint": 3,
+    "id": "NUM41"
+  },
+  {
+    "topic": "NUM",
+    "question": "How many bits are in one byte?",
+    "options": [
+      "8",
+      "4",
+      "2",
+      "16"
+    ],
+    "correct": 0,
+    "explanation": "A byte is made of eight bits.",
+    "referencePoint": 5,
+    "id": "NUM42"
+  },
+  {
+    "topic": "NUM",
+    "question": "Which base does the decimal system use?",
+    "options": [
+      "10",
+      "16",
+      "8",
+      "2"
+    ],
+    "correct": 0,
+    "explanation": "Decimal uses digits 0 through 9 and has base 10.",
+    "referencePoint": 6,
+    "id": "NUM43"
+  },
+  {
+    "topic": "NUM",
+    "question": "Which base does hexadecimal use?",
+    "options": [
+      "10",
+      "16",
+      "2",
+      "6"
+    ],
+    "correct": 1,
+    "explanation": "Hexadecimal uses 16 symbols, 0-9 and A-F.",
+    "referencePoint": 7,
+    "id": "NUM44"
+  },
+  {
+    "topic": "NUM",
+    "question": "What is hexadecimal A in decimal?",
+    "options": [
+      "11",
+      "16",
+      "12",
+      "10"
+    ],
+    "correct": 3,
+    "explanation": "In hexadecimal, A represents decimal 10.",
+    "referencePoint": 7,
+    "id": "NUM45"
+  },
+  {
+    "topic": "NUM",
+    "question": "What is hexadecimal F in decimal?",
+    "options": [
+      "10",
+      "15",
+      "14",
+      "16"
+    ],
+    "correct": 1,
+    "explanation": "Hexadecimal F represents decimal 15.",
+    "referencePoint": 7,
+    "id": "NUM46"
+  },
+  {
+    "topic": "NUM",
+    "question": "What is the decimal value of hexadecimal 10?",
+    "options": [
+      "10",
+      "20",
+      "16",
+      "2"
+    ],
+    "correct": 2,
+    "explanation": "Hexadecimal 10 has one 16 and zero ones = 16.",
+    "referencePoint": 7,
+    "id": "NUM47"
+  },
+  {
+    "topic": "NUM",
+    "question": "What does a leading zero change in a positive binary number?",
+    "options": [
+      "It adds one",
+      "Nothing about its numeric value",
+      "It changes the base to decimal",
+      "It doubles the value"
+    ],
+    "correct": 1,
+    "explanation": "Leading zeros add no value to a positional number.",
+    "referencePoint": 8,
+    "id": "NUM48"
+  },
+  {
+    "topic": "NUM",
+    "question": "Why are hexadecimal numbers useful when reading long binary strings?",
+    "options": [
+      "It changes binary hardware into decimal",
+      "Hex always uses less storage on disk",
+      "Hex removes the need for memory",
+      "One hex digit represents four binary bits"
+    ],
+    "correct": 3,
+    "explanation": "Each hex digit corresponds exactly to four bits, making bit patterns compact to read.",
+    "referencePoint": 7,
+    "id": "NUM49"
+  },
+  {
+    "topic": "NUM",
+    "question": "Which pair shows the same number in different bases?",
+    "options": [
+      "Decimal 8 and binary 1010",
+      "Decimal 10 and binary 1001",
+      "Decimal 10 and binary 1010",
+      "Decimal 4 and binary 0011"
+    ],
+    "correct": 2,
+    "explanation": "Binary 1010 = 8 + 2 = decimal 10.",
+    "referencePoint": 2,
+    "id": "NUM50"
+  },
+  {
+    "topic": "LOG",
+    "question": "For A=0, B=0, what is NAND(A, B)?",
+    "options": [
+      "2",
+      "0",
+      "Undefined",
+      "1"
+    ],
+    "correct": 3,
+    "explanation": "NAND on inputs 0 and 0 returns 1 according to its truth table.",
+    "referencePoint": 4,
+    "id": "LOG08"
+  },
+  {
+    "topic": "LOG",
+    "question": "For A=1, B=1, what is NAND(A, B)?",
+    "options": [
+      "1",
+      "Undefined",
+      "0",
+      "2"
+    ],
+    "correct": 2,
+    "explanation": "NAND on inputs 1 and 1 returns 0 according to its truth table.",
+    "referencePoint": 4,
+    "id": "LOG09"
+  },
+  {
+    "topic": "LOG",
+    "question": "For A=0, B=1, what is NAND(A, B)?",
+    "options": [
+      "Undefined",
+      "1",
+      "2",
+      "0"
+    ],
+    "correct": 1,
+    "explanation": "NAND on inputs 0 and 1 returns 1 according to its truth table.",
+    "referencePoint": 4,
+    "id": "LOG10"
+  },
+  {
+    "topic": "LOG",
+    "question": "For A=0, B=0, what is NOR(A, B)?",
+    "options": [
+      "Undefined",
+      "2",
+      "0",
+      "1"
+    ],
+    "correct": 3,
+    "explanation": "NOR on inputs 0 and 0 returns 1 according to its truth table.",
+    "referencePoint": 5,
+    "id": "LOG11"
+  },
+  {
+    "topic": "LOG",
+    "question": "For A=1, B=0, what is NOR(A, B)?",
+    "options": [
+      "1",
+      "2",
+      "0",
+      "Undefined"
+    ],
+    "correct": 2,
+    "explanation": "NOR on inputs 1 and 0 returns 0 according to its truth table.",
+    "referencePoint": 5,
+    "id": "LOG12"
+  },
+  {
+    "topic": "LOG",
+    "question": "For A=1, B=1, what is NOR(A, B)?",
+    "options": [
+      "0",
+      "2",
+      "Undefined",
+      "1"
+    ],
+    "correct": 0,
+    "explanation": "NOR on inputs 1 and 1 returns 0 according to its truth table.",
+    "referencePoint": 5,
+    "id": "LOG13"
+  },
+  {
+    "topic": "LOG",
+    "question": "For A=1, B=1, what is XNOR(A, B)?",
+    "options": [
+      "2",
+      "Undefined",
+      "1",
+      "0"
+    ],
+    "correct": 2,
+    "explanation": "XNOR on inputs 1 and 1 returns 1 according to its truth table.",
+    "referencePoint": 6,
+    "id": "LOG14"
+  },
+  {
+    "topic": "LOG",
+    "question": "For A=0, B=1, what is XNOR(A, B)?",
+    "options": [
+      "Undefined",
+      "2",
+      "1",
+      "0"
+    ],
+    "correct": 3,
+    "explanation": "XNOR on inputs 0 and 1 returns 0 according to its truth table.",
+    "referencePoint": 6,
+    "id": "LOG15"
+  },
+  {
+    "topic": "LOG",
+    "question": "For A=0, B=0, what is XNOR(A, B)?",
+    "options": [
+      "Undefined",
+      "1",
+      "0",
+      "2"
+    ],
+    "correct": 1,
+    "explanation": "XNOR on inputs 0 and 0 returns 1 according to its truth table.",
+    "referencePoint": 6,
+    "id": "LOG16"
+  },
+  {
+    "topic": "LOG",
+    "question": "For A=0, B=1, what is AND(A, B)?",
+    "options": [
+      "1",
+      "Undefined",
+      "2",
+      "0"
+    ],
+    "correct": 3,
+    "explanation": "AND on inputs 0 and 1 returns 0 according to its truth table.",
+    "referencePoint": 0,
+    "id": "LOG17"
+  },
+  {
+    "topic": "LOG",
+    "question": "For A=1, B=1, what is OR(A, B)?",
+    "options": [
+      "2",
+      "1",
+      "Undefined",
+      "0"
+    ],
+    "correct": 1,
+    "explanation": "OR on inputs 1 and 1 returns 1 according to its truth table.",
+    "referencePoint": 1,
+    "id": "LOG18"
+  },
+  {
+    "topic": "LOG",
+    "question": "For A=0, B=0, what is XOR(A, B)?",
+    "options": [
+      "0",
+      "Undefined",
+      "1",
+      "2"
+    ],
+    "correct": 0,
+    "explanation": "XOR on inputs 0 and 0 returns 0 according to its truth table.",
+    "referencePoint": 2,
+    "id": "LOG19"
+  },
+  {
+    "topic": "LOG",
+    "question": "What does a NOT gate do?",
+    "options": [
+      "Stores an entire file",
+      "Adds two inputs",
+      "Reverses a binary input",
+      "Counts from 0 to 9"
+    ],
+    "correct": 2,
+    "explanation": "NOT changes 0 to 1 and 1 to 0.",
+    "referencePoint": 3,
+    "id": "LOG20"
+  },
+  {
+    "topic": "LOG",
+    "question": "What is NOT(0)?",
+    "options": [
+      "0",
+      "Undefined",
+      "1",
+      "2"
+    ],
+    "correct": 2,
+    "explanation": "A NOT gate inverts the input 0 into 1.",
+    "referencePoint": 3,
+    "id": "LOG21"
+  },
+  {
+    "topic": "LOG",
+    "question": "What is NOT(1)?",
+    "options": [
+      "0",
+      "Undefined",
+      "2",
+      "1"
+    ],
+    "correct": 0,
+    "explanation": "A NOT gate inverts the input 1 into 0.",
+    "referencePoint": 3,
+    "id": "LOG22"
+  },
+  {
+    "topic": "LOG",
+    "question": "Which gate equals NOT(AND(A,B))?",
+    "options": [
+      "AND",
+      "NOR",
+      "NAND",
+      "XOR"
+    ],
+    "correct": 2,
+    "explanation": "NAND is the inverse of AND.",
+    "referencePoint": 4,
+    "id": "LOG23"
+  },
+  {
+    "topic": "LOG",
+    "question": "Which gate equals NOT(OR(A,B))?",
+    "options": [
+      "XNOR",
+      "NAND",
+      "NOR",
+      "OR"
+    ],
+    "correct": 2,
+    "explanation": "NOR is the inverse of OR.",
+    "referencePoint": 5,
+    "id": "LOG24"
+  },
+  {
+    "topic": "LOG",
+    "question": "Which gate returns 1 if two inputs are equal?",
+    "options": [
+      "OR only",
+      "XNOR",
+      "XOR",
+      "AND only"
+    ],
+    "correct": 1,
+    "explanation": "XNOR is 1 for 00 and 11.",
+    "referencePoint": 6,
+    "id": "LOG25"
+  },
+  {
+    "topic": "LOG",
+    "question": "Which two-input gate is 1 only for the pair 11?",
+    "options": [
+      "OR",
+      "XOR",
+      "AND",
+      "NOR"
+    ],
+    "correct": 2,
+    "explanation": "AND needs both bits to be 1.",
+    "referencePoint": 0,
+    "id": "LOG26"
+  },
+  {
+    "topic": "LOG",
+    "question": "Which two-input gate is 1 for 01, 10 and 11?",
+    "options": [
+      "XNOR",
+      "AND",
+      "OR",
+      "NOR"
+    ],
+    "correct": 2,
+    "explanation": "OR requires at least one input of 1.",
+    "referencePoint": 1,
+    "id": "LOG27"
+  },
+  {
+    "topic": "LOG",
+    "question": "Which two-input gate is 1 only for 01 and 10?",
+    "options": [
+      "XOR",
+      "XNOR",
+      "AND",
+      "NOR"
+    ],
+    "correct": 0,
+    "explanation": "XOR detects differing inputs.",
+    "referencePoint": 2,
+    "id": "LOG28"
+  },
+  {
+    "topic": "LOG",
+    "question": "Which two-input gate is 1 only for 00?",
+    "options": [
+      "NOR",
+      "XOR",
+      "OR",
+      "NAND"
+    ],
+    "correct": 0,
+    "explanation": "NOR is the inverse of OR and is 1 only when both inputs are 0.",
+    "referencePoint": 5,
+    "id": "LOG29"
+  },
+  {
+    "topic": "LOG",
+    "question": "How many rows are in a two-input truth table?",
+    "options": [
+      "4",
+      "8",
+      "2",
+      "6"
+    ],
+    "correct": 0,
+    "explanation": "Two inputs each have two possible values, making 2² = 4 rows.",
+    "referencePoint": 7,
+    "id": "LOG30"
+  },
+  {
+    "topic": "LOG",
+    "question": "How many input combinations are in a three-input truth table?",
+    "options": [
+      "9",
+      "6",
+      "8",
+      "3"
+    ],
+    "correct": 2,
+    "explanation": "Three binary inputs give 2³ = 8 combinations.",
+    "referencePoint": 7,
+    "id": "LOG31"
+  },
+  {
+    "topic": "LOG",
+    "question": "What is the purpose of a truth table?",
+    "options": [
+      "Store variable values permanently",
+      "List outputs for every input combination",
+      "Show a CPU temperature graph",
+      "Translate Wi-Fi passwords"
+    ],
+    "correct": 1,
+    "explanation": "Truth tables describe outputs for every combination of input values.",
+    "referencePoint": 7,
+    "id": "LOG32"
+  },
+  {
+    "topic": "LOG",
+    "question": "What does Boolean value 1 usually mean in a digital gate diagram?",
+    "options": [
+      "A decimal number greater than 1",
+      "No input wire",
+      "Logic true or high",
+      "An invalid output"
+    ],
+    "correct": 2,
+    "explanation": "Digital logic models high/true as 1 and low/false as 0.",
+    "referencePoint": 7,
+    "id": "LOG33"
+  },
+  {
+    "topic": "LOG",
+    "question": "Which expression means A is true OR B is true?",
+    "options": [
+      "A OR B",
+      "A AND B",
+      "NOT A",
+      "A XOR B only"
+    ],
+    "correct": 0,
+    "explanation": "OR is true when at least one operand is true.",
+    "referencePoint": 1,
+    "id": "LOG34"
+  },
+  {
+    "topic": "LOG",
+    "question": "Which expression means A and B are both true?",
+    "options": [
+      "A OR B",
+      "A AND B",
+      "NOT A",
+      "A XOR B"
+    ],
+    "correct": 1,
+    "explanation": "AND requires both conditions to be true.",
+    "referencePoint": 0,
+    "id": "LOG35"
+  },
+  {
+    "topic": "LOG",
+    "question": "For two identical inputs, which gate always outputs 0?",
+    "options": [
+      "XOR",
+      "XNOR",
+      "OR",
+      "NAND"
+    ],
+    "correct": 0,
+    "explanation": "An exclusive OR is false whenever both inputs match.",
+    "referencePoint": 2,
+    "id": "LOG36"
+  },
+  {
+    "topic": "LOG",
+    "question": "For two identical inputs, which gate always outputs 1?",
+    "options": [
+      "XOR",
+      "XNOR",
+      "NOR",
+      "NAND"
+    ],
+    "correct": 1,
+    "explanation": "XNOR is the complement of XOR and detects equal inputs.",
+    "referencePoint": 6,
+    "id": "LOG37"
+  },
+  {
+    "topic": "LOG",
+    "question": "If an alarm should activate only when both sensors detect motion, choose which gate.",
+    "options": [
+      "AND",
+      "NOT",
+      "NOR",
+      "XOR"
+    ],
+    "correct": 0,
+    "explanation": "AND activates only when both sensor signals are 1.",
+    "referencePoint": 0,
+    "id": "LOG38"
+  },
+  {
+    "topic": "LOG",
+    "question": "If a light should turn on when either of two switches is on, choose which gate.",
+    "options": [
+      "OR",
+      "NOT",
+      "XNOR",
+      "AND"
+    ],
+    "correct": 0,
+    "explanation": "OR is on when at least one switch is on.",
+    "referencePoint": 1,
+    "id": "LOG39"
+  },
+  {
+    "topic": "LOG",
+    "question": "If a warning should sound when two sensors disagree, choose which gate.",
+    "options": [
+      "AND",
+      "XOR",
+      "NOR",
+      "XNOR"
+    ],
+    "correct": 1,
+    "explanation": "XOR is 1 when the two sensor values differ.",
+    "referencePoint": 2,
+    "id": "LOG40"
+  },
+  {
+    "topic": "LOG",
+    "question": "If a lamp should be off only when both switches are on, which gate fits?",
+    "options": [
+      "NOR",
+      "AND",
+      "NAND",
+      "XNOR"
+    ],
+    "correct": 2,
+    "explanation": "NAND returns 0 only for the input pair 11.",
+    "referencePoint": 4,
+    "id": "LOG41"
+  },
+  {
+    "topic": "LOG",
+    "question": "If an indicator should be on only when both sensors are off, use which gate?",
+    "options": [
+      "NAND",
+      "XOR",
+      "OR",
+      "NOR"
+    ],
+    "correct": 3,
+    "explanation": "NOR gives 1 exactly when both inputs are 0.",
+    "referencePoint": 5,
+    "id": "LOG42"
+  },
+  {
+    "topic": "LOG",
+    "question": "How do you turn an AND operation into NAND?",
+    "options": [
+      "Swap the input labels",
+      "Place a NOT after AND",
+      "Use a third input always at 1",
+      "Place an OR after AND"
+    ],
+    "correct": 1,
+    "explanation": "Negating an AND result produces NAND.",
+    "referencePoint": 4,
+    "id": "LOG43"
+  },
+  {
+    "topic": "LOG",
+    "question": "What does an output bubble often mean on a logic symbol?",
+    "options": [
+      "Extra power",
+      "Logical inversion",
+      "A broken wire",
+      "More output bits"
+    ],
+    "correct": 1,
+    "explanation": "A small bubble indicates inversion (NOT) on that connection.",
+    "referencePoint": 3,
+    "id": "LOG44"
+  },
+  {
+    "topic": "LOG",
+    "question": "For A=1 and B=0, what is (A AND B) OR A?",
+    "options": [
+      "Undefined",
+      "2",
+      "1",
+      "0"
+    ],
+    "correct": 2,
+    "explanation": "(1 AND 0) OR 1 = 0 OR 1 = 1.",
+    "referencePoint": 8,
+    "id": "LOG45"
+  },
+  {
+    "topic": "LOG",
+    "question": "For A=1 and B=0, what is (A OR B) AND B?",
+    "options": [
+      "2",
+      "Undefined",
+      "1",
+      "0"
+    ],
+    "correct": 3,
+    "explanation": "(1 OR 0) AND 0 = 1 AND 0 = 0.",
+    "referencePoint": 8,
+    "id": "LOG46"
+  },
+  {
+    "topic": "LOG",
+    "question": "For A=0 and B=1, what is NOT(A) AND B?",
+    "options": [
+      "1",
+      "0",
+      "2",
+      "Undefined"
+    ],
+    "correct": 0,
+    "explanation": "NOT(0) AND 1 = 1 AND 1 = 1.",
+    "referencePoint": 8,
+    "id": "LOG47"
+  },
+  {
+    "topic": "LOG",
+    "question": "For A=1 and B=1, what is NOT(A AND B)?",
+    "options": [
+      "Undefined",
+      "2",
+      "0",
+      "1"
+    ],
+    "correct": 2,
+    "explanation": "A AND B is 1, and NOT(1) is 0.",
+    "referencePoint": 8,
+    "id": "LOG48"
+  },
+  {
+    "topic": "LOG",
+    "question": "Which operation gives 0 when at least one input is 1?",
+    "options": [
+      "NOR",
+      "XOR",
+      "AND",
+      "OR"
+    ],
+    "correct": 0,
+    "explanation": "NOR is NOT OR, so any 1 input makes its output 0.",
+    "referencePoint": 5,
+    "id": "LOG49"
+  },
+  {
+    "topic": "LOG",
+    "question": "Which gate is commonly called an inverter?",
+    "options": [
+      "XOR",
+      "NOT",
+      "AND",
+      "OR"
+    ],
+    "correct": 1,
+    "explanation": "NOT flips one input bit and is also called an inverter.",
+    "referencePoint": 3,
+    "id": "LOG50"
+  },
+  {
+    "topic": "PRG",
+    "question": "In Kotlin, with val a = 8 and val b = 3, what is a - b?",
+    "options": [
+      "4",
+      "8",
+      "6",
+      "5"
+    ],
+    "correct": 3,
+    "explanation": "Substitute a=8 and b=3; Kotlin integer arithmetic evaluates a - b to 5.",
+    "referencePoint": 1,
+    "id": "PRG09"
+  },
+  {
+    "topic": "PRG",
+    "question": "In Kotlin, with val a = 4 and val b = 6, what is a * b?",
+    "options": [
+      "23",
+      "25",
+      "24",
+      "27"
+    ],
+    "correct": 2,
+    "explanation": "Substitute a=4 and b=6; Kotlin integer arithmetic evaluates a * b to 24.",
+    "referencePoint": 1,
+    "id": "PRG10"
+  },
+  {
+    "topic": "PRG",
+    "question": "In Kotlin, with val a = 9 and val b = 2, what is a / b?",
+    "options": [
+      "4",
+      "7",
+      "5",
+      "3"
+    ],
+    "correct": 0,
+    "explanation": "Substitute a=9 and b=2; Kotlin integer arithmetic evaluates a / b to 4.",
+    "referencePoint": 1,
+    "id": "PRG11"
+  },
+  {
+    "topic": "PRG",
+    "question": "In Kotlin, with val a = 9 and val b = 4, what is a % b?",
+    "options": [
+      "4",
+      "2",
+      "1",
+      "0"
+    ],
+    "correct": 2,
+    "explanation": "Substitute a=9 and b=4; Kotlin integer arithmetic evaluates a % b to 1.",
+    "referencePoint": 1,
+    "id": "PRG12"
+  },
+  {
+    "topic": "PRG",
+    "question": "In Kotlin, with val a = 6 and val b = 2, what is a + b * 3?",
+    "options": [
+      "15",
+      "11",
+      "13",
+      "12"
+    ],
+    "correct": 3,
+    "explanation": "Substitute a=6 and b=2; Kotlin integer arithmetic evaluates a + b * 3 to 12.",
+    "referencePoint": 1,
+    "id": "PRG13"
+  },
+  {
+    "topic": "PRG",
+    "question": "In Kotlin, with val a = 3 and val b = 5, what is (a + b) * 2?",
+    "options": [
+      "19",
+      "17",
+      "16",
+      "15"
+    ],
+    "correct": 2,
+    "explanation": "Substitute a=3 and b=5; Kotlin integer arithmetic evaluates (a + b) * 2 to 16.",
+    "referencePoint": 1,
+    "id": "PRG14"
+  },
+  {
+    "topic": "PRG",
+    "question": "In Kotlin, with val a = 10 and val b = 4, what is a - b * 2?",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "5"
+    ],
+    "correct": 2,
+    "explanation": "Substitute a=10 and b=4; Kotlin integer arithmetic evaluates a - b * 2 to 2.",
+    "referencePoint": 1,
+    "id": "PRG15"
+  },
+  {
+    "topic": "PRG",
+    "question": "In Kotlin, with val a = 7 and val b = 3, what is a % b?",
+    "options": [
+      "1",
+      "4",
+      "0",
+      "2"
+    ],
+    "correct": 0,
+    "explanation": "Substitute a=7 and b=3; Kotlin integer arithmetic evaluates a % b to 1.",
+    "referencePoint": 1,
+    "id": "PRG16"
+  },
+  {
+    "topic": "PRG",
+    "question": "In Kotlin, with val a = 2 and val b = 3, what is a * b + 4?",
+    "options": [
+      "11",
+      "13",
+      "9",
+      "10"
+    ],
+    "correct": 3,
+    "explanation": "Substitute a=2 and b=3; Kotlin integer arithmetic evaluates a * b + 4 to 10.",
+    "referencePoint": 1,
+    "id": "PRG17"
+  },
+  {
+    "topic": "PRG",
+    "question": "In Kotlin, with val a = 20 and val b = 5, what is a / b + 1?",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "4"
+    ],
+    "correct": 0,
+    "explanation": "Substitute a=20 and b=5; Kotlin integer arithmetic evaluates a / b + 1 to 5.",
+    "referencePoint": 1,
+    "id": "PRG18"
+  },
+  {
+    "topic": "PRG",
+    "question": "In Kotlin, with val a = 5 and val b = 2, what is a * (b + 3)?",
+    "options": [
+      "26",
+      "25",
+      "24",
+      "28"
+    ],
+    "correct": 1,
+    "explanation": "Substitute a=5 and b=2; Kotlin integer arithmetic evaluates a * (b + 3) to 25.",
+    "referencePoint": 1,
+    "id": "PRG19"
+  },
+  {
+    "topic": "PRG",
+    "question": "In Kotlin, with val a = 12 and val b = 5, what is a - b + 2?",
+    "options": [
+      "10",
+      "9",
+      "8",
+      "12"
+    ],
+    "correct": 1,
+    "explanation": "Substitute a=12 and b=5; Kotlin integer arithmetic evaluates a - b + 2 to 9.",
+    "referencePoint": 1,
+    "id": "PRG20"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which Kotlin keyword makes a variable that can be reassigned?",
+    "options": [
+      "fun",
+      "var",
+      "val",
+      "class"
+    ],
+    "correct": 1,
+    "explanation": "var makes a mutable variable.",
+    "referencePoint": 4,
+    "id": "PRG21"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which Kotlin type stores true or false?",
+    "options": [
+      "String",
+      "Int",
+      "Boolean",
+      "Char"
+    ],
+    "correct": 2,
+    "explanation": "Boolean values are true or false.",
+    "referencePoint": 5,
+    "id": "PRG22"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which Kotlin type normally holds whole numbers?",
+    "options": [
+      "Unit",
+      "Int",
+      "Boolean",
+      "String"
+    ],
+    "correct": 1,
+    "explanation": "Int stores signed whole-number values.",
+    "referencePoint": 5,
+    "id": "PRG23"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which Kotlin type stores a text value?",
+    "options": [
+      "Double",
+      "Int",
+      "String",
+      "Boolean"
+    ],
+    "correct": 2,
+    "explanation": "String holds sequences of characters.",
+    "referencePoint": 5,
+    "id": "PRG24"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which Kotlin type is suitable for a decimal value such as 3.5?",
+    "options": [
+      "Char",
+      "Double",
+      "Int",
+      "Boolean"
+    ],
+    "correct": 1,
+    "explanation": "Double stores floating-point numeric values.",
+    "referencePoint": 5,
+    "id": "PRG25"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which keyword begins a function declaration in Kotlin?",
+    "options": [
+      "method",
+      "fun",
+      "func",
+      "define"
+    ],
+    "correct": 1,
+    "explanation": "Kotlin functions begin with fun.",
+    "referencePoint": 6,
+    "id": "PRG26"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which symbol begins a single-line comment in Kotlin?",
+    "options": [
+      "<!--",
+      "//",
+      "##",
+      "**"
+    ],
+    "correct": 1,
+    "explanation": "The // prefix starts a single-line comment.",
+    "referencePoint": 7,
+    "id": "PRG27"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which Kotlin condition compares two values for equality?",
+    "options": [
+      "a => b",
+      "a == b",
+      "a := b",
+      "a = b"
+    ],
+    "correct": 1,
+    "explanation": "Double equals checks whether two values are equal.",
+    "referencePoint": 8,
+    "id": "PRG28"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which Kotlin structure chooses between two branches?",
+    "options": [
+      "print / println",
+      "if / else",
+      "val / var",
+      "package / import"
+    ],
+    "correct": 1,
+    "explanation": "if and else select behavior depending on a Boolean condition.",
+    "referencePoint": 8,
+    "id": "PRG29"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which Kotlin keyword repeats elements in a range?",
+    "options": [
+      "until?",
+      "case",
+      "switch",
+      "for"
+    ],
+    "correct": 3,
+    "explanation": "A for loop can iterate through a range or collection.",
+    "referencePoint": 9,
+    "id": "PRG30"
+  },
+  {
+    "topic": "PRG",
+    "question": "What does repeat(3) { println(\"Hi\") } do in Kotlin?",
+    "options": [
+      "Prints 3",
+      "Never prints",
+      "Prints Hi three times",
+      "Prints Hi once"
+    ],
+    "correct": 2,
+    "explanation": "repeat(3) runs its block three times.",
+    "referencePoint": 9,
+    "id": "PRG31"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which pair of characters surrounds Kotlin string content?",
+    "options": [
+      "Curly braces",
+      "Single angle brackets",
+      "Double quotation marks",
+      "Square brackets"
+    ],
+    "correct": 2,
+    "explanation": "A regular Kotlin String literal uses double quotes.",
+    "referencePoint": 5,
+    "id": "PRG32"
+  },
+  {
+    "topic": "PRG",
+    "question": "What is printed by Kotlin: if (5 > 2) println(\"YES\") else println(\"NO\")?",
+    "options": [
+      "Error",
+      "5",
+      "NO",
+      "YES"
+    ],
+    "correct": 3,
+    "explanation": "5 > 2 is true, so the first branch runs.",
+    "referencePoint": 8,
+    "id": "PRG33"
+  },
+  {
+    "topic": "PRG",
+    "question": "What is printed by Kotlin: if (2 == 3) println(\"A\") else println(\"B\")?",
+    "options": [
+      "3",
+      "A",
+      "2",
+      "B"
+    ],
+    "correct": 3,
+    "explanation": "2 == 3 is false, so else prints B.",
+    "referencePoint": 8,
+    "id": "PRG34"
+  },
+  {
+    "topic": "PRG",
+    "question": "What is printed by Kotlin: val x = 4; if (x >= 4) println(\"OK\") else println(\"LOW\")?",
+    "options": [
+      "LOW",
+      "4",
+      "Error",
+      "OK"
+    ],
+    "correct": 3,
+    "explanation": "The condition includes equality, so 4 >= 4 is true.",
+    "referencePoint": 8,
+    "id": "PRG35"
+  },
+  {
+    "topic": "PRG",
+    "question": "How many times does Kotlin for (i in 1..3) print the value of i?",
+    "options": [
+      "4",
+      "2",
+      "1",
+      "3"
+    ],
+    "correct": 3,
+    "explanation": "The inclusive range 1..3 contains 1, 2, and 3.",
+    "referencePoint": 9,
+    "id": "PRG36"
+  },
+  {
+    "topic": "PRG",
+    "question": "How many iterations does for (i in 0 until 4) run in Kotlin?",
+    "options": [
+      "0",
+      "4",
+      "3",
+      "5"
+    ],
+    "correct": 1,
+    "explanation": "0 until 4 includes 0, 1, 2 and 3, excluding 4.",
+    "referencePoint": 9,
+    "id": "PRG37"
+  },
+  {
+    "topic": "PRG",
+    "question": "What does Kotlin println(2 + 3) print?",
+    "options": [
+      "2 + 3",
+      "23",
+      "5",
+      "6"
+    ],
+    "correct": 2,
+    "explanation": "Addition occurs before printing the numeric result.",
+    "referencePoint": 3,
+    "id": "PRG38"
+  },
+  {
+    "topic": "PRG",
+    "question": "What does Kotlin println(\"2\" + \"3\") print?",
+    "options": [
+      "5",
+      "6",
+      "Error",
+      "23"
+    ],
+    "correct": 3,
+    "explanation": "Adding two String values concatenates their text.",
+    "referencePoint": 5,
+    "id": "PRG39"
+  },
+  {
+    "topic": "PRG",
+    "question": "What is printed by Kotlin: var x = 2; x += 3; println(x)?",
+    "options": [
+      "6",
+      "2",
+      "5",
+      "3"
+    ],
+    "correct": 2,
+    "explanation": "x += 3 updates x from 2 to 5.",
+    "referencePoint": 4,
+    "id": "PRG40"
+  },
+  {
+    "topic": "PRG",
+    "question": "What is printed by Kotlin: var x = 4; x -= 1; println(x)?",
+    "options": [
+      "3",
+      "1",
+      "5",
+      "4"
+    ],
+    "correct": 0,
+    "explanation": "x -= 1 subtracts one and assigns the result.",
+    "referencePoint": 4,
+    "id": "PRG41"
+  },
+  {
+    "topic": "PRG",
+    "question": "What is printed by Kotlin: println(7 % 2)?",
+    "options": [
+      "1",
+      "0",
+      "3",
+      "2"
+    ],
+    "correct": 0,
+    "explanation": "The remainder of 7 divided by 2 is 1.",
+    "referencePoint": 1,
+    "id": "PRG42"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which declaration correctly creates a read-only String named city?",
+    "options": [
+      "String city <- \"Manila\"",
+      "val city = Manila",
+      "val city: Int = \"Manila\"",
+      "val city = \"Manila\""
+    ],
+    "correct": 3,
+    "explanation": "A quoted String can be assigned to val city.",
+    "referencePoint": 0,
+    "id": "PRG43"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which declaration creates a mutable whole number?",
+    "options": [
+      "var lives = \"three\" // whole number",
+      "val lives == 3",
+      "fun lives = 3",
+      "var lives = 3"
+    ],
+    "correct": 3,
+    "explanation": "var lives = 3 declares a mutable Int.",
+    "referencePoint": 4,
+    "id": "PRG44"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which Kotlin line calls a function named greet?",
+    "options": [
+      "call greet:",
+      "greet()",
+      "function greet",
+      "greet{} ="
+    ],
+    "correct": 1,
+    "explanation": "Use parentheses to call a function, for example greet().",
+    "referencePoint": 6,
+    "id": "PRG45"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which keyword exits a loop immediately in Kotlin?",
+    "options": [
+      "break",
+      "pass",
+      "returnLoop",
+      "stop"
+    ],
+    "correct": 0,
+    "explanation": "break leaves the nearest enclosing loop.",
+    "referencePoint": 9,
+    "id": "PRG46"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which keyword skips to the next iteration of a Kotlin loop?",
+    "options": [
+      "break",
+      "next",
+      "skip",
+      "continue"
+    ],
+    "correct": 3,
+    "explanation": "continue skips the rest of the current loop iteration.",
+    "referencePoint": 9,
+    "id": "PRG47"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which Kotlin collection literal creates a list of 1, 2 and 3?",
+    "options": [
+      "listOf(1, 2, 3)",
+      "list[1, 2, 3]",
+      "array:1,2,3",
+      "makeList 1 2 3"
+    ],
+    "correct": 0,
+    "explanation": "listOf builds a Kotlin List containing the given elements.",
+    "referencePoint": 10,
+    "id": "PRG48"
+  },
+  {
+    "topic": "PRG",
+    "question": "What index accesses the first element of a Kotlin list?",
+    "options": [
+      "2",
+      "0",
+      "-1",
+      "1"
+    ],
+    "correct": 1,
+    "explanation": "Kotlin List indices begin at zero.",
+    "referencePoint": 10,
+    "id": "PRG49"
+  },
+  {
+    "topic": "PRG",
+    "question": "Which value does a Kotlin function with Boolean return type return?",
+    "options": [
+      "true or false",
+      "Any floating-point number only",
+      "A list only",
+      "A filename only"
+    ],
+    "correct": 0,
+    "explanation": "Boolean-returning functions give a Boolean result: true or false.",
+    "referencePoint": 5,
+    "id": "PRG50"
+  },
+  {
+    "topic": "DBG",
+    "question": "For x = 6, does the condition x >= 7 evaluate to true?",
+    "options": [
+      "It is invalid Kotlin",
+      "True",
+      "False",
+      "Only on a phone"
+    ],
+    "correct": 2,
+    "explanation": "Compare 6 >= 7 using Kotlin numeric comparison; the expression is false.",
+    "referencePoint": 1,
+    "id": "DBG08"
+  },
+  {
+    "topic": "DBG",
+    "question": "For x = 7, does the condition x >= 7 evaluate to true?",
+    "options": [
+      "Only on a phone",
+      "False",
+      "It is invalid Kotlin",
+      "True"
+    ],
+    "correct": 3,
+    "explanation": "Compare 7 >= 7 using Kotlin numeric comparison; the expression is true.",
+    "referencePoint": 1,
+    "id": "DBG09"
+  },
+  {
+    "topic": "DBG",
+    "question": "For x = 7, does the condition x > 7 evaluate to true?",
+    "options": [
+      "Only on a phone",
+      "It is invalid Kotlin",
+      "True",
+      "False"
+    ],
+    "correct": 3,
+    "explanation": "Compare 7 > 7 using Kotlin numeric comparison; the expression is false.",
+    "referencePoint": 3,
+    "id": "DBG10"
+  },
+  {
+    "topic": "DBG",
+    "question": "For x = 8, does the condition x > 7 evaluate to true?",
+    "options": [
+      "False",
+      "Only on a phone",
+      "It is invalid Kotlin",
+      "True"
+    ],
+    "correct": 3,
+    "explanation": "Compare 8 > 7 using Kotlin numeric comparison; the expression is true.",
+    "referencePoint": 3,
+    "id": "DBG11"
+  },
+  {
+    "topic": "DBG",
+    "question": "For x = 12, does the condition x <= 12 evaluate to true?",
+    "options": [
+      "False",
+      "Only on a phone",
+      "True",
+      "It is invalid Kotlin"
+    ],
+    "correct": 2,
+    "explanation": "Compare 12 <= 12 using Kotlin numeric comparison; the expression is true.",
+    "referencePoint": 3,
+    "id": "DBG12"
+  },
+  {
+    "topic": "DBG",
+    "question": "For x = 13, does the condition x <= 12 evaluate to true?",
+    "options": [
+      "True",
+      "It is invalid Kotlin",
+      "Only on a phone",
+      "False"
+    ],
+    "correct": 3,
+    "explanation": "Compare 13 <= 12 using Kotlin numeric comparison; the expression is false.",
+    "referencePoint": 3,
+    "id": "DBG13"
+  },
+  {
+    "topic": "DBG",
+    "question": "For x = 11, does the condition x < 12 evaluate to true?",
+    "options": [
+      "False",
+      "Only on a phone",
+      "It is invalid Kotlin",
+      "True"
+    ],
+    "correct": 3,
+    "explanation": "Compare 11 < 12 using Kotlin numeric comparison; the expression is true.",
+    "referencePoint": 3,
+    "id": "DBG14"
+  },
+  {
+    "topic": "DBG",
+    "question": "For x = 12, does the condition x < 12 evaluate to true?",
+    "options": [
+      "True",
+      "False",
+      "Only on a phone",
+      "It is invalid Kotlin"
+    ],
+    "correct": 1,
+    "explanation": "Compare 12 < 12 using Kotlin numeric comparison; the expression is false.",
+    "referencePoint": 3,
+    "id": "DBG15"
+  },
+  {
+    "topic": "DBG",
+    "question": "For x = 4, does the condition x == 4 evaluate to true?",
+    "options": [
+      "Only on a phone",
+      "It is invalid Kotlin",
+      "True",
+      "False"
+    ],
+    "correct": 2,
+    "explanation": "Compare 4 == 4 using Kotlin numeric comparison; the expression is true.",
+    "referencePoint": 3,
+    "id": "DBG16"
+  },
+  {
+    "topic": "DBG",
+    "question": "For x = 4, does the condition x != 4 evaluate to true?",
+    "options": [
+      "Only on a phone",
+      "False",
+      "True",
+      "It is invalid Kotlin"
+    ],
+    "correct": 1,
+    "explanation": "Compare 4 != 4 using Kotlin numeric comparison; the expression is false.",
+    "referencePoint": 3,
+    "id": "DBG17"
+  },
+  {
+    "topic": "DBG",
+    "question": "For x = 5, does the condition x != 4 evaluate to true?",
+    "options": [
+      "It is invalid Kotlin",
+      "False",
+      "Only on a phone",
+      "True"
+    ],
+    "correct": 3,
+    "explanation": "Compare 5 != 4 using Kotlin numeric comparison; the expression is true.",
+    "referencePoint": 3,
+    "id": "DBG18"
+  },
+  {
+    "topic": "DBG",
+    "question": "A Kotlin program fails to compile because a closing parenthesis is missing. What type of error is this?",
+    "options": [
+      "Network error",
+      "Syntax error",
+      "Logical error only",
+      "Storage failure"
+    ],
+    "correct": 1,
+    "explanation": "A missing required delimiter violates the language grammar.",
+    "referencePoint": 4,
+    "id": "DBG19"
+  },
+  {
+    "topic": "DBG",
+    "question": "A program runs but calculates the wrong total. What type of bug is most likely?",
+    "options": [
+      "DNS outage",
+      "Syntax error in a compiled line",
+      "Logic error",
+      "Hardware replacement"
+    ],
+    "correct": 2,
+    "explanation": "Incorrect algorithm behavior despite running is a logic bug.",
+    "referencePoint": 6,
+    "id": "DBG20"
+  },
+  {
+    "topic": "DBG",
+    "question": "An app stops with an uncaught exception while running. What category fits?",
+    "options": [
+      "Flowchart symbol",
+      "Firmware upgrade",
+      "Runtime error",
+      "Decimal conversion"
+    ],
+    "correct": 2,
+    "explanation": "An exception that interrupts execution is a runtime failure.",
+    "referencePoint": 5,
+    "id": "DBG21"
+  },
+  {
+    "topic": "DBG",
+    "question": "What is a useful first step when a bug can be reproduced?",
+    "options": [
+      "Randomly remove code",
+      "Record the exact steps and inputs",
+      "Change all variable names",
+      "Delete all log messages"
+    ],
+    "correct": 1,
+    "explanation": "A repeatable example makes the fault easier to diagnose.",
+    "referencePoint": 10,
+    "id": "DBG22"
+  },
+  {
+    "topic": "DBG",
+    "question": "Which tool shows error messages and stack traces for an Android app?",
+    "options": [
+      "Logcat",
+      "Paint",
+      "File Explorer only",
+      "Calculator"
+    ],
+    "correct": 0,
+    "explanation": "Android Logcat displays runtime logs and exception traces.",
+    "referencePoint": 9,
+    "id": "DBG23"
+  },
+  {
+    "topic": "DBG",
+    "question": "What does a breakpoint do during debugging?",
+    "options": [
+      "Pauses execution at a chosen line",
+      "Makes the CPU faster",
+      "Deletes the current variable",
+      "Automatically repairs bugs"
+    ],
+    "correct": 0,
+    "explanation": "A breakpoint stops a debugger so values can be inspected.",
+    "referencePoint": 9,
+    "id": "DBG24"
+  },
+  {
+    "topic": "DBG",
+    "question": "Why print a variable value while debugging?",
+    "options": [
+      "To inspect program state",
+      "To change Java into Kotlin",
+      "To reset RAM",
+      "To save it as a permanent file"
+    ],
+    "correct": 0,
+    "explanation": "Logging a value helps trace where behavior diverges.",
+    "referencePoint": 9,
+    "id": "DBG25"
+  },
+  {
+    "topic": "DBG",
+    "question": "Which check is best for a bug at a minimum allowed age of 18?",
+    "options": [
+      "Test 17, 18 and 19",
+      "Test only 25",
+      "Do not test any numbers",
+      "Test only 0"
+    ],
+    "correct": 0,
+    "explanation": "Values on either side and at the boundary reveal comparison mistakes.",
+    "referencePoint": 2,
+    "id": "DBG26"
+  },
+  {
+    "topic": "DBG",
+    "question": "Which operator should test whether status is NOT equal to 0?",
+    "options": [
+      "!=",
+      "><",
+      "==",
+      "=!"
+    ],
+    "correct": 0,
+    "explanation": "Kotlin uses != for inequality.",
+    "referencePoint": 0,
+    "id": "DBG27"
+  },
+  {
+    "topic": "DBG",
+    "question": "Which operator correctly tests whether score is at most 100?",
+    "options": [
+      "==",
+      "<",
+      ">=",
+      "<="
+    ],
+    "correct": 3,
+    "explanation": "At most means less than or equal to.",
+    "referencePoint": 3,
+    "id": "DBG28"
+  },
+  {
+    "topic": "DBG",
+    "question": "Which operator correctly tests whether count is strictly greater than 0?",
+    "options": [
+      "<=",
+      ">",
+      "!=",
+      ">="
+    ],
+    "correct": 1,
+    "explanation": "Strictly greater excludes 0 itself.",
+    "referencePoint": 3,
+    "id": "DBG29"
+  },
+  {
+    "topic": "DBG",
+    "question": "Which operator should test whether input equals 42?",
+    "options": [
+      "=>",
+      "==",
+      "=",
+      "=:"
+    ],
+    "correct": 1,
+    "explanation": "Use == for value equality; = assigns.",
+    "referencePoint": 0,
+    "id": "DBG30"
+  },
+  {
+    "topic": "DBG",
+    "question": "Which statement can cause an index error for a list containing three elements?",
+    "options": [
+      "Accessing list[0]",
+      "Checking list.size",
+      "Reading list[2]",
+      "Accessing list[3]"
+    ],
+    "correct": 3,
+    "explanation": "A list of size 3 has indices 0,1,2; index 3 is out of bounds.",
+    "referencePoint": 5,
+    "id": "DBG31"
+  },
+  {
+    "topic": "DBG",
+    "question": "Which input should be tested for division code to avoid division by zero?",
+    "options": [
+      "A divisor of 1",
+      "A dividend of 10",
+      "A divisor of 0",
+      "A divisor of 5"
+    ],
+    "correct": 2,
+    "explanation": "An integer division with divisor zero fails at runtime.",
+    "referencePoint": 5,
+    "id": "DBG32"
+  },
+  {
+    "topic": "DBG",
+    "question": "What usually happens if you use an undeclared variable name in Kotlin?",
+    "options": [
+      "An extra RAM slot",
+      "A compile-time error",
+      "A correct default of zero",
+      "Automatic network lookup"
+    ],
+    "correct": 1,
+    "explanation": "The compiler must resolve identifiers to declarations.",
+    "referencePoint": 4,
+    "id": "DBG33"
+  },
+  {
+    "topic": "DBG",
+    "question": "Why should a bug fix be tested again?",
+    "options": [
+      "To change the user name",
+      "To discard all tests",
+      "To make the code use more memory",
+      "To confirm the problem is resolved"
+    ],
+    "correct": 3,
+    "explanation": "A fix should be verified against the previously failing case.",
+    "referencePoint": 7,
+    "id": "DBG34"
+  },
+  {
+    "topic": "DBG",
+    "question": "What is a regression test meant to detect?",
+    "options": [
+      "A new monitor being attached",
+      "A previous behavior breaking after a change",
+      "Whether a game is fun",
+      "Network signal strength only"
+    ],
+    "correct": 1,
+    "explanation": "Regression tests check that old working behavior still works.",
+    "referencePoint": 7,
+    "id": "DBG35"
+  },
+  {
+    "topic": "DBG",
+    "question": "What is a unit test?",
+    "options": [
+      "A full device hardware replacement",
+      "A check of a small piece of code",
+      "A public Wi-Fi speed test",
+      "A code formatting theme"
+    ],
+    "correct": 1,
+    "explanation": "Unit tests exercise a function or another small unit.",
+    "referencePoint": 7,
+    "id": "DBG36"
+  },
+  {
+    "topic": "DBG",
+    "question": "Which message is most useful when reporting a bug?",
+    "options": [
+      "Steps, expected result and actual result",
+      "A screenshot without any context",
+      "Only “does not work”",
+      "The date of device purchase only"
+    ],
+    "correct": 0,
+    "explanation": "Reproduction steps and expected-vs-actual outcomes make reports actionable.",
+    "referencePoint": 10,
+    "id": "DBG37"
+  },
+  {
+    "topic": "DBG",
+    "question": "An app says “Correct!” for a wrong quiz answer. Which part should be inspected first?",
+    "options": [
+      "Answer checking logic",
+      "Screen wallpaper",
+      "Phone brightness",
+      "Charger brand"
+    ],
+    "correct": 0,
+    "explanation": "Wrong feedback suggests incorrect conditions or comparison logic.",
+    "referencePoint": 6,
+    "id": "DBG38"
+  },
+  {
+    "topic": "DBG",
+    "question": "What does a null check help prevent?",
+    "options": [
+      "Lost Wi-Fi signal",
+      "Using a missing reference unexpectedly",
+      "Battery heat",
+      "An oversized PNG"
+    ],
+    "correct": 1,
+    "explanation": "Checking nullable values avoids unsafe access to absent objects.",
+    "referencePoint": 8,
+    "id": "DBG39"
+  },
+  {
+    "topic": "DBG",
+    "question": "In Kotlin, what does ?. allow on a nullable value?",
+    "options": [
+      "Repeat a loop forever",
+      "Call a member only when value is non-null",
+      "Force a crash",
+      "Assign a new Boolean"
+    ],
+    "correct": 1,
+    "explanation": "The safe-call operator executes the access when the receiver is not null.",
+    "referencePoint": 8,
+    "id": "DBG40"
+  },
+  {
+    "topic": "DBG",
+    "question": "Which Kotlin token asserts a nullable value is not null, and can throw if it is null?",
+    "options": [
+      "%%",
+      "@@",
+      "!!",
+      "??"
+    ],
+    "correct": 2,
+    "explanation": "The non-null assertion !! throws when the value is null.",
+    "referencePoint": 8,
+    "id": "DBG41"
+  },
+  {
+    "topic": "DBG",
+    "question": "What is the usual purpose of an error stack trace?",
+    "options": [
+      "Display monitor colors",
+      "Convert binary to text",
+      "Sort classroom scores",
+      "Identify the call path leading to a failure"
+    ],
+    "correct": 3,
+    "explanation": "A stack trace shows nested calls and the point of failure.",
+    "referencePoint": 9,
+    "id": "DBG42"
+  },
+  {
+    "topic": "DBG",
+    "question": "A score displays 0 after being saved. Which area should you check?",
+    "options": [
+      "GPU fan",
+      "Clock format",
+      "Saved-state read/write logic",
+      "Router antenna"
+    ],
+    "correct": 2,
+    "explanation": "Incorrect persistence logic can lose or misread the saved value.",
+    "referencePoint": 6,
+    "id": "DBG43"
+  },
+  {
+    "topic": "DBG",
+    "question": "Which small case tests the lower edge of an allowed range 1..10?",
+    "options": [
+      "0 and 1",
+      "5 and 6",
+      "100 and 200",
+      "50 and 60"
+    ],
+    "correct": 0,
+    "explanation": "Test just outside and exactly at the lower limit.",
+    "referencePoint": 2,
+    "id": "DBG44"
+  },
+  {
+    "topic": "DBG",
+    "question": "Which values test the upper edge of a 1..10 range?",
+    "options": [
+      "1 and 2",
+      "10 and 11",
+      "-20 and -10",
+      "4 and 5"
+    ],
+    "correct": 1,
+    "explanation": "10 is allowed while 11 is just outside the range.",
+    "referencePoint": 2,
+    "id": "DBG45"
+  },
+  {
+    "topic": "DBG",
+    "question": "What does reproducing a bug mean?",
+    "options": [
+      "Changing the app icon",
+      "Downloading a fresh compiler",
+      "Making the same failure happen again using known steps",
+      "Copying another app"
+    ],
+    "correct": 2,
+    "explanation": "A reproducible issue occurs again under known conditions.",
+    "referencePoint": 10,
+    "id": "DBG46"
+  },
+  {
+    "topic": "DBG",
+    "question": "Which change most helps isolate a difficult bug?",
+    "options": [
+      "Remove every comment",
+      "Ignore error messages",
+      "Change ten unrelated things at once",
+      "Change one suspected cause at a time"
+    ],
+    "correct": 3,
+    "explanation": "Changing one variable at a time makes causes easier to identify.",
+    "referencePoint": 10,
+    "id": "DBG47"
+  },
+  {
+    "topic": "DBG",
+    "question": "Which is an example of an off-by-one error?",
+    "options": [
+      "A slow network",
+      "A DNS typo",
+      "A low speaker volume",
+      "Looping one extra index past a list end"
+    ],
+    "correct": 3,
+    "explanation": "Incorrect inclusive or exclusive bounds often add or omit one iteration.",
+    "referencePoint": 6,
+    "id": "DBG48"
+  },
+  {
+    "topic": "DBG",
+    "question": "What should be written before fixing a known bug, when possible?",
+    "options": [
+      "A random password",
+      "A test that demonstrates the failure",
+      "The final score certificate",
+      "The release announcement"
+    ],
+    "correct": 1,
+    "explanation": "A failing test makes the bug and the desired fix explicit.",
+    "referencePoint": 7,
+    "id": "DBG49"
+  },
+  {
+    "topic": "DBG",
+    "question": "Why check the exact line named in a compilation error?",
+    "options": [
+      "It repairs the device clock",
+      "It updates mobile data",
+      "It erases temporary files",
+      "It helps locate the invalid syntax or type"
+    ],
+    "correct": 3,
+    "explanation": "The compiler reports a location where it detected the error.",
+    "referencePoint": 4,
+    "id": "DBG50"
+  },
+  {
+    "topic": "NET",
+    "question": "What does an IP address help identify on a network?",
+    "options": [
+      "The charging cable length",
+      "The color of a computer case",
+      "A network interface or its location in an IP network",
+      "The mouse type"
+    ],
+    "correct": 2,
+    "explanation": "IP addresses let network traffic be sent to the correct interface over IP networks.",
+    "referencePoint": 3,
+    "id": "NET08"
+  },
+  {
+    "topic": "NET",
+    "question": "How many bits are in an IPv4 address?",
+    "options": [
+      "128",
+      "8",
+      "32",
+      "16"
+    ],
+    "correct": 2,
+    "explanation": "IPv4 addresses contain 32 bits.",
+    "referencePoint": 3,
+    "id": "NET09"
+  },
+  {
+    "topic": "NET",
+    "question": "Which address format is a valid example of IPv4 dotted decimal?",
+    "options": [
+      "192.168.1",
+      "192.168.1.10",
+      "192.168.1.999",
+      "300.1.1.1"
+    ],
+    "correct": 1,
+    "explanation": "IPv4 has four decimal octets, each 0 through 255.",
+    "referencePoint": 3,
+    "id": "NET10"
+  },
+  {
+    "topic": "NET",
+    "question": "Which protocol commonly assigns IP settings automatically on a local network?",
+    "options": [
+      "JPEG",
+      "DHCP",
+      "USB",
+      "HDMI"
+    ],
+    "correct": 1,
+    "explanation": "DHCP can provide IP address, subnet and gateway settings.",
+    "referencePoint": 4,
+    "id": "NET11"
+  },
+  {
+    "topic": "NET",
+    "question": "What is the main role of a home router?",
+    "options": [
+      "Keep data only in RAM",
+      "Forward traffic between networks",
+      "Charge a phone",
+      "Render a 3D game"
+    ],
+    "correct": 1,
+    "explanation": "Routers direct IP packets between networks.",
+    "referencePoint": 5,
+    "id": "NET12"
+  },
+  {
+    "topic": "NET",
+    "question": "What does a network switch usually connect?",
+    "options": [
+      "Only websites worldwide",
+      "Devices on the same local Ethernet network",
+      "A monitor to a GPU",
+      "Only printers to ink"
+    ],
+    "correct": 1,
+    "explanation": "A Layer 2 switch forwards frames between local network ports.",
+    "referencePoint": 5,
+    "id": "NET13"
+  },
+  {
+    "topic": "NET",
+    "question": "What does LAN stand for?",
+    "options": [
+      "Long Access Node",
+      "Large Android Number",
+      "Local Area Network",
+      "Linked Audio Network"
+    ],
+    "correct": 2,
+    "explanation": "LAN means local area network.",
+    "referencePoint": 6,
+    "id": "NET14"
+  },
+  {
+    "topic": "NET",
+    "question": "Which name usually describes a network covering a large geographic region?",
+    "options": [
+      "RAM",
+      "WAN",
+      "LAN only",
+      "USB"
+    ],
+    "correct": 1,
+    "explanation": "A wide area network can span many places.",
+    "referencePoint": 6,
+    "id": "NET15"
+  },
+  {
+    "topic": "NET",
+    "question": "Which service maps hostnames to IP addresses?",
+    "options": [
+      "DNS",
+      "USB",
+      "HDMI",
+      "GPU"
+    ],
+    "correct": 0,
+    "explanation": "DNS resolves hostnames into the addresses used for network connections.",
+    "referencePoint": 1,
+    "id": "NET16"
+  },
+  {
+    "topic": "NET",
+    "question": "What does HTTPS add compared with ordinary HTTP?",
+    "options": [
+      "Encryption of web traffic using TLS",
+      "Permanent offline access",
+      "Guaranteed server uptime",
+      "Faster physical cables automatically"
+    ],
+    "correct": 0,
+    "explanation": "HTTPS protects the connection using TLS encryption.",
+    "referencePoint": 7,
+    "id": "NET17"
+  },
+  {
+    "topic": "NET",
+    "question": "What is a website URL?",
+    "options": [
+      "An address for a resource on the web",
+      "A CPU cooling fan",
+      "A kind of RAM",
+      "A power connector"
+    ],
+    "correct": 0,
+    "explanation": "A URL identifies the location of a web resource.",
+    "referencePoint": 7,
+    "id": "NET18"
+  },
+  {
+    "topic": "NET",
+    "question": "What does Wi-Fi provide?",
+    "options": [
+      "A programming language",
+      "An external monitor",
+      "Long-term flash storage",
+      "Wireless local network access"
+    ],
+    "correct": 3,
+    "explanation": "Wi-Fi connects devices through radio to a local network.",
+    "referencePoint": 8,
+    "id": "NET19"
+  },
+  {
+    "topic": "NET",
+    "question": "What does an Ethernet cable generally provide?",
+    "options": [
+      "A keyboard layout",
+      "CPU computation",
+      "A wired network link",
+      "Printer toner"
+    ],
+    "correct": 2,
+    "explanation": "Ethernet connects network equipment over a wired medium.",
+    "referencePoint": 8,
+    "id": "NET20"
+  },
+  {
+    "topic": "NET",
+    "question": "Which command is commonly used to test IP reachability to a host?",
+    "options": [
+      "mkdir",
+      "copy",
+      "ping",
+      "paint"
+    ],
+    "correct": 2,
+    "explanation": "ping sends test messages and reports replies when allowed.",
+    "referencePoint": 9,
+    "id": "NET21"
+  },
+  {
+    "topic": "NET",
+    "question": "What is latency in networking?",
+    "options": [
+      "Amount of RAM",
+      "Monitor resolution",
+      "Delay before data arrives",
+      "Printer speed"
+    ],
+    "correct": 2,
+    "explanation": "Latency describes elapsed communication delay.",
+    "referencePoint": 9,
+    "id": "NET22"
+  },
+  {
+    "topic": "NET",
+    "question": "What is bandwidth in a network connection?",
+    "options": [
+      "Screen brightness",
+      "The number of CPU sockets",
+      "Battery storage",
+      "Capacity for moving data over time"
+    ],
+    "correct": 3,
+    "explanation": "Bandwidth describes a link capacity, often in bits per second.",
+    "referencePoint": 9,
+    "id": "NET23"
+  },
+  {
+    "topic": "NET",
+    "question": "What is a packet?",
+    "options": [
+      "A CPU slot",
+      "A keyboard key",
+      "A unit of data sent through a network",
+      "A disk partition only"
+    ],
+    "correct": 2,
+    "explanation": "Networks divide information into packets for transmission.",
+    "referencePoint": 10,
+    "id": "NET24"
+  },
+  {
+    "topic": "NET",
+    "question": "What does a default gateway provide on a LAN?",
+    "options": [
+      "A new desktop wallpaper",
+      "A file name extension",
+      "More SSD space",
+      "A route to other IP networks"
+    ],
+    "correct": 3,
+    "explanation": "A gateway is used to reach destinations outside the local IP network.",
+    "referencePoint": 5,
+    "id": "NET25"
+  },
+  {
+    "topic": "NET",
+    "question": "Which private IPv4 range includes 192.168.1.20?",
+    "options": [
+      "224.0.0.0/4",
+      "1.1.1.0/24",
+      "192.168.0.0/16",
+      "8.8.8.0/24"
+    ],
+    "correct": 2,
+    "explanation": "192.168.0.0/16 is a common private IPv4 block.",
+    "referencePoint": 3,
+    "id": "NET26"
+  },
+  {
+    "topic": "NET",
+    "question": "What does a subnet mask help a device determine?",
+    "options": [
+      "Whether a monitor is HDMI",
+      "The current keyboard language",
+      "Battery charge percentage",
+      "Which IPv4 addresses are local to its subnet"
+    ],
+    "correct": 3,
+    "explanation": "A subnet mask separates network and host portions of an address.",
+    "referencePoint": 3,
+    "id": "NET27"
+  },
+  {
+    "topic": "NET",
+    "question": "Which layer of software typically handles browsing to an HTTPS page?",
+    "options": [
+      "BIOS fan control",
+      "RAM timings",
+      "A web browser",
+      "Display driver only"
+    ],
+    "correct": 2,
+    "explanation": "A browser is an application that requests and displays web pages.",
+    "referencePoint": 7,
+    "id": "NET28"
+  },
+  {
+    "topic": "NET",
+    "question": "What is the purpose of a MAC address on an Ethernet LAN?",
+    "options": [
+      "Store a DNS record forever",
+      "Identify a network interface for local frame delivery",
+      "Name a Kotlin variable",
+      "Specify a processor model"
+    ],
+    "correct": 1,
+    "explanation": "Ethernet uses MAC addresses to deliver frames locally.",
+    "referencePoint": 5,
+    "id": "NET29"
+  },
+  {
+    "topic": "NET",
+    "question": "Which address does a DNS A record normally provide?",
+    "options": [
+      "An IPv4 address",
+      "A GPU clock speed",
+      "A local file size",
+      "A Wi-Fi password"
+    ],
+    "correct": 0,
+    "explanation": "A DNS A record returns IPv4 addresses for a hostname.",
+    "referencePoint": 1,
+    "id": "NET30"
+  },
+  {
+    "topic": "NET",
+    "question": "Which address does a DNS AAAA record normally provide?",
+    "options": [
+      "A monitor serial number",
+      "An IPv6 address",
+      "A disk path",
+      "An email password"
+    ],
+    "correct": 1,
+    "explanation": "An AAAA record represents IPv6 addresses.",
+    "referencePoint": 1,
+    "id": "NET31"
+  },
+  {
+    "topic": "NET",
+    "question": "How many bits are in an IPv6 address?",
+    "options": [
+      "128",
+      "32",
+      "256",
+      "64"
+    ],
+    "correct": 0,
+    "explanation": "IPv6 uses 128-bit addresses.",
+    "referencePoint": 3,
+    "id": "NET32"
+  },
+  {
+    "topic": "NET",
+    "question": "What does a DHCP lease describe?",
+    "options": [
+      "A network cable purchase",
+      "A password for every website",
+      "A temporary assignment of IP configuration",
+      "A permanent hardware warranty"
+    ],
+    "correct": 2,
+    "explanation": "DHCP leases IP settings to a client for a limited time.",
+    "referencePoint": 4,
+    "id": "NET33"
+  },
+  {
+    "topic": "NET",
+    "question": "What is a wireless access point mainly used for?",
+    "options": [
+      "Store photos offline",
+      "Run Android apps",
+      "Allow wireless clients onto a local network",
+      "Replace a computer CPU"
+    ],
+    "correct": 2,
+    "explanation": "An access point links wireless stations with the local network.",
+    "referencePoint": 8,
+    "id": "NET34"
+  },
+  {
+    "topic": "NET",
+    "question": "What is packet loss?",
+    "options": [
+      "A deleted code comment",
+      "An SSD losing its casing",
+      "Sent packets that fail to reach their destination",
+      "A keyboard missing keys"
+    ],
+    "correct": 2,
+    "explanation": "Loss occurs when packets do not arrive successfully.",
+    "referencePoint": 10,
+    "id": "NET35"
+  },
+  {
+    "topic": "NET",
+    "question": "What is an example of an application-layer protocol?",
+    "options": [
+      "HTTP",
+      "SATA",
+      "DDR4",
+      "HDMI"
+    ],
+    "correct": 0,
+    "explanation": "HTTP is used by web applications to exchange requests and responses.",
+    "referencePoint": 7,
+    "id": "NET36"
+  },
+  {
+    "topic": "NET",
+    "question": "What does uploading a file mean?",
+    "options": [
+      "Formatting an SSD",
+      "Receiving a file to your phone",
+      "Deleting a folder",
+      "Sending a local file to a remote system"
+    ],
+    "correct": 3,
+    "explanation": "Uploading transfers data from the client to a remote service.",
+    "referencePoint": 10,
+    "id": "NET37"
+  },
+  {
+    "topic": "NET",
+    "question": "Your phone connects to Wi-Fi but receives no usable IP address. Which service should you investigate?",
+    "options": [
+      "Monitor driver",
+      "Printer toner",
+      "Bluetooth audio",
+      "DHCP"
+    ],
+    "correct": 3,
+    "explanation": "DHCP commonly supplies automatic IP settings on local networks.",
+    "referencePoint": 4,
+    "id": "NET38"
+  },
+  {
+    "topic": "NET",
+    "question": "A laptop connects to a local printer but not websites on other networks. Which setting is worth checking?",
+    "options": [
+      "Keyboard lighting",
+      "Default gateway",
+      "Text size",
+      "Screen saver"
+    ],
+    "correct": 1,
+    "explanation": "A missing or incorrect gateway can block reaching remote IP networks.",
+    "referencePoint": 5,
+    "id": "NET39"
+  },
+  {
+    "topic": "NET",
+    "question": "Two nearby computers on the same LAN need more Ethernet ports. Which device fits?",
+    "options": [
+      "Graphics card",
+      "Network switch",
+      "Monitor",
+      "USB flash drive"
+    ],
+    "correct": 1,
+    "explanation": "A switch adds wired local-network ports.",
+    "referencePoint": 5,
+    "id": "NET40"
+  },
+  {
+    "topic": "NET",
+    "question": "A browser warns that an HTTPS certificate is invalid. Which issue does this concern?",
+    "options": [
+      "CPU core count",
+      "Battery charge",
+      "Display resolution",
+      "Trust or identity of the secure connection"
+    ],
+    "correct": 3,
+    "explanation": "TLS certificates help a browser verify the server identity.",
+    "referencePoint": 7,
+    "id": "NET41"
+  },
+  {
+    "topic": "NET",
+    "question": "Which tool can test whether an IP address replies to basic network probes?",
+    "options": [
+      "Calculator",
+      "Notepad",
+      "Task scheduler",
+      "ping"
+    ],
+    "correct": 3,
+    "explanation": "ping can help test whether a host responds to ICMP probes.",
+    "referencePoint": 9,
+    "id": "NET42"
+  },
+  {
+    "topic": "NET",
+    "question": "A long delay happens before each web page loads, but pages eventually appear. Which property may be high?",
+    "options": [
+      "SSD capacity",
+      "Screen brightness",
+      "Latency",
+      "Number of CPU fans"
+    ],
+    "correct": 2,
+    "explanation": "High network latency means more waiting for responses.",
+    "referencePoint": 9,
+    "id": "NET43"
+  },
+  {
+    "topic": "NET",
+    "question": "An Ethernet link is limited to 100 Mbps by its port. Can software alone make that port operate at 1 Gbps?",
+    "options": [
+      "No, hardware capabilities must support 1 Gbps",
+      "Yes, with an extra shortcut",
+      "Always, when Wi-Fi is off",
+      "Yes, by deleting browser history"
+    ],
+    "correct": 0,
+    "explanation": "Link speed is limited by the capabilities of the ports and connection.",
+    "referencePoint": 9,
+    "id": "NET44"
+  },
+  {
+    "topic": "NET",
+    "question": "A local network uses 192.168.1.10 and 192.168.1.20 with mask 255.255.255.0. Are they on the same subnet?",
+    "options": [
+      "Yes",
+      "Only with Bluetooth",
+      "Only if both are laptops",
+      "No"
+    ],
+    "correct": 0,
+    "explanation": "Both are inside the 192.168.1.0/24 subnet.",
+    "referencePoint": 3,
+    "id": "NET45"
+  },
+  {
+    "topic": "NET",
+    "question": "A hostname lookup fails but direct IP connections succeed. What is the likely service issue?",
+    "options": [
+      "USB",
+      "GPU",
+      "DNS",
+      "Audio driver"
+    ],
+    "correct": 2,
+    "explanation": "Working IP connectivity with failing names points to DNS resolution.",
+    "referencePoint": 1,
+    "id": "NET46"
+  },
+  {
+    "topic": "NET",
+    "question": "Which network connection normally avoids local Wi-Fi radio interference?",
+    "options": [
+      "Bluetooth audio",
+      "Wi-Fi using the same channel",
+      "Wired Ethernet",
+      "Infrared remote"
+    ],
+    "correct": 2,
+    "explanation": "A wired Ethernet connection does not use the local Wi-Fi radio channel.",
+    "referencePoint": 8,
+    "id": "NET47"
+  },
+  {
+    "topic": "NET",
+    "question": "A video call breaks up because many packets fail to arrive. What problem is this?",
+    "options": [
+      "Too many browser bookmarks",
+      "Keyboard backlight failure",
+      "Packet loss",
+      "Low screen resolution"
+    ],
+    "correct": 2,
+    "explanation": "Dropped packets can degrade real-time voice and video.",
+    "referencePoint": 10,
+    "id": "NET48"
+  },
+  {
+    "topic": "NET",
+    "question": "What should you check first when an Ethernet cable appears disconnected?",
+    "options": [
+      "Whether the cable and ports are firmly connected",
+      "Whether the app theme is dark",
+      "The battery percentage of a mouse",
+      "Whether the desktop wallpaper changed"
+    ],
+    "correct": 0,
+    "explanation": "Start with the physical link when the device reports an unplugged cable.",
+    "referencePoint": 8,
+    "id": "NET49"
+  },
+  {
+    "topic": "NET",
+    "question": "Which service lets clients connect by a hostname instead of memorizing IP addresses?",
+    "options": [
+      "PCIe",
+      "PSU",
+      "DNS",
+      "SATA"
+    ],
+    "correct": 2,
+    "explanation": "DNS maps domain names to network addresses.",
+    "referencePoint": 1,
+    "id": "NET50"
+  },
+  {
+    "topic": "ALG",
+    "question": "Which flowchart symbol is normally used for a decision?",
+    "options": [
+      "Cylinder",
+      "Circle only",
+      "Oval",
+      "Diamond"
+    ],
+    "correct": 3,
+    "explanation": "The diamond represents a branching yes/no decision.",
+    "referencePoint": 4,
+    "id": "ALG08"
+  },
+  {
+    "topic": "ALG",
+    "question": "Which flowchart shape usually indicates a processing action?",
+    "options": [
+      "Rectangle",
+      "Oval",
+      "Diamond",
+      "Cloud"
+    ],
+    "correct": 0,
+    "explanation": "Rectangles represent a process or instruction.",
+    "referencePoint": 5,
+    "id": "ALG09"
+  },
+  {
+    "topic": "ALG",
+    "question": "Which flowchart shape often represents input or output?",
+    "options": [
+      "Hexagon only",
+      "Oval",
+      "Diamond",
+      "Parallelogram"
+    ],
+    "correct": 3,
+    "explanation": "A parallelogram marks input/output operations.",
+    "referencePoint": 6,
+    "id": "ALG10"
+  },
+  {
+    "topic": "ALG",
+    "question": "What do arrows in a flowchart indicate?",
+    "options": [
+      "Direction of control flow",
+      "Number of variables",
+      "Electric current only",
+      "File storage size"
+    ],
+    "correct": 0,
+    "explanation": "Arrows connect steps to show which follows which.",
+    "referencePoint": 7,
+    "id": "ALG11"
+  },
+  {
+    "topic": "ALG",
+    "question": "What is a sequence in an algorithm?",
+    "options": [
+      "Steps executed in order",
+      "A program without inputs",
+      "A random collection of rules",
+      "A broken link"
+    ],
+    "correct": 0,
+    "explanation": "Sequence means following instructions in order.",
+    "referencePoint": 3,
+    "id": "ALG12"
+  },
+  {
+    "topic": "ALG",
+    "question": "What is selection in an algorithm?",
+    "options": [
+      "Counting RAM slots",
+      "Always repeating forever",
+      "Choosing a path based on a condition",
+      "Saving a file to disk"
+    ],
+    "correct": 2,
+    "explanation": "Selection branches based on conditions, often if/else.",
+    "referencePoint": 4,
+    "id": "ALG13"
+  },
+  {
+    "topic": "ALG",
+    "question": "What is iteration in an algorithm?",
+    "options": [
+      "Repeating steps according to a rule",
+      "A screenshot",
+      "A file type",
+      "A hardware connector"
+    ],
+    "correct": 0,
+    "explanation": "Loops repeat a block of instructions.",
+    "referencePoint": 8,
+    "id": "ALG14"
+  },
+  {
+    "topic": "ALG",
+    "question": "What is pseudocode?",
+    "options": [
+      "A type of monitor",
+      "Readable, language-independent steps for an algorithm",
+      "Encrypted source code",
+      "A programming language that all CPUs run directly"
+    ],
+    "correct": 1,
+    "explanation": "Pseudocode describes algorithm steps without strict language syntax.",
+    "referencePoint": 9,
+    "id": "ALG15"
+  },
+  {
+    "topic": "ALG",
+    "question": "What should an algorithm define clearly?",
+    "options": [
+      "Inputs, process and outputs",
+      "Only variable colors",
+      "Only a project logo",
+      "Only a device price"
+    ],
+    "correct": 0,
+    "explanation": "Clear algorithms describe inputs, processing, and expected output.",
+    "referencePoint": 10,
+    "id": "ALG16"
+  },
+  {
+    "topic": "ALG",
+    "question": "Which part checks whether a number is even?",
+    "options": [
+      "A storage step only",
+      "A print statement without any check",
+      "A decision using number % 2 == 0",
+      "Changing font size"
+    ],
+    "correct": 2,
+    "explanation": "Testing the remainder of division by 2 distinguishes even and odd.",
+    "referencePoint": 4,
+    "id": "ALG17"
+  },
+  {
+    "topic": "ALG",
+    "question": "Which symbol can be used to show a program ending?",
+    "options": [
+      "Process rectangle",
+      "Terminator oval",
+      "Decision diamond",
+      "Input parallelogram"
+    ],
+    "correct": 1,
+    "explanation": "End is commonly a terminator in a flowchart.",
+    "referencePoint": 0,
+    "id": "ALG18"
+  },
+  {
+    "topic": "ALG",
+    "question": "What does it mean when a flowchart path returns to an earlier test?",
+    "options": [
+      "It means stop immediately",
+      "It may form a loop",
+      "It means hardware failure",
+      "It always means an error"
+    ],
+    "correct": 1,
+    "explanation": "A return arrow can indicate repetition until the condition changes.",
+    "referencePoint": 8,
+    "id": "ALG19"
+  },
+  {
+    "topic": "ALG",
+    "question": "Which algorithm step must occur before checking a user-entered password?",
+    "options": [
+      "Read the entered password",
+      "Display success immediately",
+      "End the program",
+      "Delete the password"
+    ],
+    "correct": 0,
+    "explanation": "The comparison needs the user's input first.",
+    "referencePoint": 1,
+    "id": "ALG20"
+  },
+  {
+    "topic": "ALG",
+    "question": "Which task is best represented by a decision branch?",
+    "options": [
+      "Check whether a student passed",
+      "Assign total = 0",
+      "Read a value only",
+      "Display a heading only"
+    ],
+    "correct": 0,
+    "explanation": "Pass/fail requires choosing a path based on a condition.",
+    "referencePoint": 4,
+    "id": "ALG21"
+  },
+  {
+    "topic": "ALG",
+    "question": "What should follow an output step if the algorithm has finished?",
+    "options": [
+      "End",
+      "Delete all variables",
+      "Unrelated condition",
+      "Start again always"
+    ],
+    "correct": 0,
+    "explanation": "A terminated algorithm reaches its End step.",
+    "referencePoint": 0,
+    "id": "ALG22"
+  },
+  {
+    "topic": "ALG",
+    "question": "Which step calculates the sum of two entered numbers?",
+    "options": [
+      "total = a + b",
+      "INPUT a",
+      "END",
+      "DISPLAY total"
+    ],
+    "correct": 0,
+    "explanation": "An assignment total = a + b performs the computation.",
+    "referencePoint": 5,
+    "id": "ALG23"
+  },
+  {
+    "topic": "ALG",
+    "question": "What is a counter used for in an algorithm?",
+    "options": [
+      "Tracking how many times something occurs",
+      "Replacing a router",
+      "Turning RAM into storage",
+      "Choosing a monitor color"
+    ],
+    "correct": 0,
+    "explanation": "Counters store the count of events or iterations.",
+    "referencePoint": 8,
+    "id": "ALG24"
+  },
+  {
+    "topic": "ALG",
+    "question": "Which common loop first evaluates a condition before each repetition?",
+    "options": [
+      "Variable declaration only",
+      "while loop",
+      "println call",
+      "Comment line"
+    ],
+    "correct": 1,
+    "explanation": "A while loop repeats while its condition is true.",
+    "referencePoint": 8,
+    "id": "ALG25"
+  },
+  {
+    "topic": "ALG",
+    "question": "Why should a loop have a reachable stopping condition?",
+    "options": [
+      "To avoid unintentional endless repetition",
+      "To change input into output",
+      "To avoid using keyboards",
+      "To force a bigger display"
+    ],
+    "correct": 0,
+    "explanation": "A terminating condition lets a loop finish.",
+    "referencePoint": 8,
+    "id": "ALG26"
+  },
+  {
+    "topic": "ALG",
+    "question": "What is the input of an algorithm that squares a number?",
+    "options": [
+      "The end symbol",
+      "The original number",
+      "The square already printed",
+      "The monitor model"
+    ],
+    "correct": 1,
+    "explanation": "The number is read before the square is calculated.",
+    "referencePoint": 1,
+    "id": "ALG27"
+  },
+  {
+    "topic": "ALG",
+    "question": "Which is the output for an algorithm that doubles 6?",
+    "options": [
+      "6",
+      "12",
+      "36",
+      "3"
+    ],
+    "correct": 1,
+    "explanation": "Doubling 6 computes 6 × 2 = 12.",
+    "referencePoint": 2,
+    "id": "ALG28"
+  },
+  {
+    "topic": "ALG",
+    "question": "If the condition n > 10 is false, which path should a yes/no decision follow?",
+    "options": [
+      "Yes/true branch",
+      "Both branches at once",
+      "End without examining any path",
+      "No/false branch"
+    ],
+    "correct": 3,
+    "explanation": "A false condition follows the false branch.",
+    "referencePoint": 4,
+    "id": "ALG29"
+  },
+  {
+    "topic": "ALG",
+    "question": "What is a dry run of an algorithm?",
+    "options": [
+      "Drawing only the title",
+      "Formatting a laptop",
+      "Manually tracing steps with example inputs",
+      "Starting without any input"
+    ],
+    "correct": 2,
+    "explanation": "Dry runs simulate steps to check logic before coding.",
+    "referencePoint": 11,
+    "id": "ALG30"
+  },
+  {
+    "topic": "ALG",
+    "question": "Why use a flowchart before coding?",
+    "options": [
+      "To increase phone battery life",
+      "To speed up the monitor",
+      "To install drivers",
+      "To plan and communicate process steps"
+    ],
+    "correct": 3,
+    "explanation": "Flowcharts make algorithm structure visible.",
+    "referencePoint": 3,
+    "id": "ALG31"
+  },
+  {
+    "topic": "ALG",
+    "question": "Which property should a finite, terminating algorithm have?",
+    "options": [
+      "It eventually reaches an end for intended inputs",
+      "It always loops forever",
+      "It never reads inputs",
+      "It requires an internet connection"
+    ],
+    "correct": 0,
+    "explanation": "A terminating algorithm completes after finite steps for its intended inputs.",
+    "referencePoint": 8,
+    "id": "ALG32"
+  },
+  {
+    "topic": "ALG",
+    "question": "Which order is correct for checking an exam grade after reading it?",
+    "options": [
+      "Input grade → Compare with threshold → Display result",
+      "End → Read grade → Start",
+      "Compare unknown grade → End",
+      "Display result → Input grade → Compare"
+    ],
+    "correct": 0,
+    "explanation": "The grade must be read before comparison; display follows selection.",
+    "referencePoint": 1,
+    "id": "ALG33"
+  },
+  {
+    "topic": "ALG",
+    "question": "Which shape usually has branches labelled Yes and No?",
+    "options": [
+      "Input parallelogram",
+      "Process rectangle",
+      "Decision diamond",
+      "Start oval"
+    ],
+    "correct": 2,
+    "explanation": "Decision results control two alternative flow lines.",
+    "referencePoint": 4,
+    "id": "ALG34"
+  },
+  {
+    "topic": "ALG",
+    "question": "Which line is pseudocode rather than strict Kotlin syntax?",
+    "options": [
+      "println(total)",
+      "fun main() {}",
+      "val total = a + b",
+      "SET total TO a + b"
+    ],
+    "correct": 3,
+    "explanation": "SET ... TO ... is typical informal pseudocode.",
+    "referencePoint": 9,
+    "id": "ALG35"
+  },
+  {
+    "topic": "ALG",
+    "question": "What is a variable in an algorithm?",
+    "options": [
+      "A shape only for End",
+      "A Wi-Fi setting",
+      "A hardware cable",
+      "A named value that can be used in steps"
+    ],
+    "correct": 3,
+    "explanation": "Algorithm variables hold values used by steps.",
+    "referencePoint": 10,
+    "id": "ALG36"
+  },
+  {
+    "topic": "ALG",
+    "question": "Start with x = 2. After x = x + 3, what is x?",
+    "options": [
+      "5",
+      "6",
+      "3",
+      "2"
+    ],
+    "correct": 0,
+    "explanation": "The assignment adds three to the previous value: 2 + 3 = 5.",
+    "referencePoint": 10,
+    "id": "ALG37"
+  },
+  {
+    "topic": "ALG",
+    "question": "Start with x = 7. After x = x - 4, what is x?",
+    "options": [
+      "7",
+      "3",
+      "4",
+      "11"
+    ],
+    "correct": 1,
+    "explanation": "The update subtracts four: 7 - 4 = 3.",
+    "referencePoint": 10,
+    "id": "ALG38"
+  },
+  {
+    "topic": "ALG",
+    "question": "If total starts at 0 and you add 2 three times, what is total?",
+    "options": [
+      "6",
+      "3",
+      "8",
+      "2"
+    ],
+    "correct": 0,
+    "explanation": "Each of three iterations adds 2, so total is 6.",
+    "referencePoint": 8,
+    "id": "ALG39"
+  },
+  {
+    "topic": "ALG",
+    "question": "If a loop runs for i = 1, 2, 3 and adds i to total (starting at 0), what is total?",
+    "options": [
+      "3",
+      "0",
+      "9",
+      "6"
+    ],
+    "correct": 3,
+    "explanation": "The sum 1 + 2 + 3 = 6.",
+    "referencePoint": 8,
+    "id": "ALG40"
+  },
+  {
+    "topic": "ALG",
+    "question": "A loop displays numbers 1 through 4. How many values are displayed?",
+    "options": [
+      "5",
+      "2",
+      "4",
+      "3"
+    ],
+    "correct": 2,
+    "explanation": "Inclusive values 1,2,3,4 produce four outputs.",
+    "referencePoint": 8,
+    "id": "ALG41"
+  },
+  {
+    "topic": "ALG",
+    "question": "A while loop starts x=0 and increments x until x<3 is false. What is final x?",
+    "options": [
+      "3",
+      "0",
+      "2",
+      "4"
+    ],
+    "correct": 0,
+    "explanation": "The loop runs at 0,1,2; after the third increment x is 3.",
+    "referencePoint": 8,
+    "id": "ALG42"
+  },
+  {
+    "topic": "ALG",
+    "question": "Which value is the larger of 8 and 13?",
+    "options": [
+      "13",
+      "8",
+      "21",
+      "5"
+    ],
+    "correct": 0,
+    "explanation": "Comparing the two inputs, 13 > 8.",
+    "referencePoint": 4,
+    "id": "ALG43"
+  },
+  {
+    "topic": "ALG",
+    "question": "If mark=75 and passing threshold is 75 or above, what is the decision?",
+    "options": [
+      "Repeat forever",
+      "Fail",
+      "Invalid input",
+      "Pass"
+    ],
+    "correct": 3,
+    "explanation": "75 >= 75 is true, so the pass branch is selected.",
+    "referencePoint": 4,
+    "id": "ALG44"
+  },
+  {
+    "topic": "ALG",
+    "question": "An algorithm tests whether 9 is even using remainder by 2. What result does it get?",
+    "options": [
+      "Odd",
+      "Even",
+      "Zero",
+      "Neither"
+    ],
+    "correct": 0,
+    "explanation": "9 divided by 2 leaves a remainder of 1.",
+    "referencePoint": 4,
+    "id": "ALG45"
+  },
+  {
+    "topic": "ALG",
+    "question": "If a count starts at 1 and doubles three times, what is its final value?",
+    "options": [
+      "16",
+      "8",
+      "3",
+      "6"
+    ],
+    "correct": 1,
+    "explanation": "1 → 2 → 4 → 8 after three doublings.",
+    "referencePoint": 8,
+    "id": "ALG46"
+  },
+  {
+    "topic": "ALG",
+    "question": "If a program multiplies 6 by 4 then displays the result, what is shown?",
+    "options": [
+      "64",
+      "24",
+      "10",
+      "2"
+    ],
+    "correct": 1,
+    "explanation": "Processing computes 6 × 4 = 24 before output.",
+    "referencePoint": 2,
+    "id": "ALG47"
+  },
+  {
+    "topic": "ALG",
+    "question": "If the user enters 5, what output follows: INPUT n; DISPLAY n+2?",
+    "options": [
+      "7",
+      "5",
+      "10",
+      "3"
+    ],
+    "correct": 0,
+    "explanation": "Input 5 gives n+2 = 7.",
+    "referencePoint": 2,
+    "id": "ALG48"
+  },
+  {
+    "topic": "ALG",
+    "question": "If a decision checks 3 > 5, which branch is chosen?",
+    "options": [
+      "Neither because 3 is positive",
+      "Both branches",
+      "False branch",
+      "True branch"
+    ],
+    "correct": 2,
+    "explanation": "3 > 5 is false.",
+    "referencePoint": 4,
+    "id": "ALG49"
+  },
+  {
+    "topic": "ALG",
+    "question": "If counter begins at 0 and increments once for each of five items, what is counter?",
+    "options": [
+      "0",
+      "10",
+      "5",
+      "4"
+    ],
+    "correct": 2,
+    "explanation": "Five increments move counter from 0 to 5.",
+    "referencePoint": 8,
+    "id": "ALG50"
+  },
+  {
+    "topic": "HWR",
+    "question": "What connects the CPU, RAM, storage and expansion cards?",
+    "options": [
+      "Motherboard",
+      "Speaker",
+      "Monitor stand",
+      "Mouse pad"
+    ],
+    "correct": 0,
+    "explanation": "The motherboard provides the main physical and electrical connections.",
+    "referencePoint": 3,
+    "id": "HWR07"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which component specializes in rendering graphics?",
+    "options": [
+      "GPU",
+      "SSD",
+      "LAN cable",
+      "PSU"
+    ],
+    "correct": 0,
+    "explanation": "The graphics processing unit accelerates graphics workloads.",
+    "referencePoint": 4,
+    "id": "HWR08"
+  },
+  {
+    "topic": "HWR",
+    "question": "What does a cooling fan help remove from a computer?",
+    "options": [
+      "IP addresses",
+      "Source-code errors",
+      "Heat",
+      "Stored files"
+    ],
+    "correct": 2,
+    "explanation": "Fans move air to help dissipate heat.",
+    "referencePoint": 5,
+    "id": "HWR09"
+  },
+  {
+    "topic": "HWR",
+    "question": "What does a CPU heatsink help do?",
+    "options": [
+      "Provide Ethernet frames",
+      "Hold passwords",
+      "Convert decimal to binary",
+      "Move heat away from the processor"
+    ],
+    "correct": 3,
+    "explanation": "A heatsink transfers heat from the chip to a larger surface.",
+    "referencePoint": 5,
+    "id": "HWR10"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which device is primarily an input device?",
+    "options": [
+      "Monitor",
+      "Speaker",
+      "Projector",
+      "Keyboard"
+    ],
+    "correct": 3,
+    "explanation": "The keyboard sends key presses into the computer.",
+    "referencePoint": 6,
+    "id": "HWR11"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which device is primarily an output device?",
+    "options": [
+      "Mouse",
+      "Scanner",
+      "Monitor",
+      "Microphone"
+    ],
+    "correct": 2,
+    "explanation": "The monitor displays information output by the system.",
+    "referencePoint": 6,
+    "id": "HWR12"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which device captures printed pages as images?",
+    "options": [
+      "CPU fan",
+      "Power supply",
+      "Speaker",
+      "Scanner"
+    ],
+    "correct": 3,
+    "explanation": "A scanner digitizes physical pages.",
+    "referencePoint": 6,
+    "id": "HWR13"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which device creates a paper copy of a digital file?",
+    "options": [
+      "Router",
+      "RAM",
+      "GPU",
+      "Printer"
+    ],
+    "correct": 3,
+    "explanation": "A printer produces physical output on paper.",
+    "referencePoint": 6,
+    "id": "HWR14"
+  },
+  {
+    "topic": "HWR",
+    "question": "What is the main advantage of an SSD over a mechanical HDD?",
+    "options": [
+      "No moving read/write heads and typically faster access",
+      "It is temporary memory",
+      "It is always bigger in capacity",
+      "It requires no controller"
+    ],
+    "correct": 0,
+    "explanation": "SSDs use flash memory rather than spinning platters.",
+    "referencePoint": 7,
+    "id": "HWR15"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which storage device uses spinning magnetic disks?",
+    "options": [
+      "HDD",
+      "RAM",
+      "CPU",
+      "SSD"
+    ],
+    "correct": 0,
+    "explanation": "A traditional hard disk drive uses rotating magnetic platters.",
+    "referencePoint": 7,
+    "id": "HWR16"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which common port is used for many external keyboards and flash drives?",
+    "options": [
+      "SATA power",
+      "PCIe x16",
+      "USB",
+      "HDMI"
+    ],
+    "correct": 2,
+    "explanation": "USB is a general-purpose external connection standard.",
+    "referencePoint": 8,
+    "id": "HWR17"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which connection commonly carries digital video to a monitor?",
+    "options": [
+      "SATA",
+      "HDMI",
+      "Ethernet only",
+      "USB-A power only"
+    ],
+    "correct": 1,
+    "explanation": "HDMI commonly transports digital video and audio signals.",
+    "referencePoint": 8,
+    "id": "HWR18"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which internal slot may hold a desktop graphics card?",
+    "options": [
+      "RJ45",
+      "PCIe x16",
+      "DIMM",
+      "M.2 Key E only"
+    ],
+    "correct": 1,
+    "explanation": "Many desktop graphics cards install in a PCI Express x16 slot.",
+    "referencePoint": 8,
+    "id": "HWR19"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which slot type normally holds desktop DIMM RAM?",
+    "options": [
+      "Memory/DIMM slot",
+      "HDMI connector",
+      "PCIe x16 graphics slot",
+      "SATA data port"
+    ],
+    "correct": 0,
+    "explanation": "DIMM slots accept compatible desktop memory modules.",
+    "referencePoint": 3,
+    "id": "HWR20"
+  },
+  {
+    "topic": "HWR",
+    "question": "What does BIOS or UEFI firmware do early during a PC startup?",
+    "options": [
+      "Store music on cloud servers",
+      "Generate printed homework",
+      "Run a browser before power is on",
+      "Initialize hardware and start the boot process"
+    ],
+    "correct": 3,
+    "explanation": "Firmware initializes components and hands off to a bootloader.",
+    "referencePoint": 9,
+    "id": "HWR21"
+  },
+  {
+    "topic": "HWR",
+    "question": "Where is UEFI firmware normally stored?",
+    "options": [
+      "Inside the keyboard",
+      "Ordinary volatile RAM only",
+      "Nonvolatile memory on the motherboard",
+      "Inside the monitor glass"
+    ],
+    "correct": 2,
+    "explanation": "Platform firmware is stored in nonvolatile memory.",
+    "referencePoint": 9,
+    "id": "HWR22"
+  },
+  {
+    "topic": "HWR",
+    "question": "What is the purpose of thermal paste between CPU and cooler?",
+    "options": [
+      "Increase RAM capacity",
+      "Supply network access",
+      "Improve thermal contact",
+      "Provide permanent file storage"
+    ],
+    "correct": 2,
+    "explanation": "Thermal interface material fills tiny gaps for better heat transfer.",
+    "referencePoint": 5,
+    "id": "HWR23"
+  },
+  {
+    "topic": "HWR",
+    "question": "What does a PSU convert for a desktop PC?",
+    "options": [
+      "Binary digits into text only",
+      "Mains AC input into regulated DC outputs",
+      "Internet packets into images",
+      "RAM contents into music"
+    ],
+    "correct": 1,
+    "explanation": "A PSU supplies usable DC power rails from incoming electricity.",
+    "referencePoint": 2,
+    "id": "HWR24"
+  },
+  {
+    "topic": "HWR",
+    "question": "What does an SSD usually retain after power-off?",
+    "options": [
+      "Unsaved RAM-only data",
+      "Contents of CPU registers",
+      "Temporary cache only",
+      "Saved files and installed programs"
+    ],
+    "correct": 3,
+    "explanation": "Nonvolatile storage keeps persisted data without power.",
+    "referencePoint": 1,
+    "id": "HWR25"
+  },
+  {
+    "topic": "HWR",
+    "question": "What usually happens to an unsaved in-memory document after sudden power loss?",
+    "options": [
+      "Unsaved changes may be lost",
+      "The GPU stores them permanently",
+      "They always print automatically",
+      "They move to DNS"
+    ],
+    "correct": 0,
+    "explanation": "RAM is volatile; changes not saved to storage may disappear.",
+    "referencePoint": 1,
+    "id": "HWR26"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which component is typically upgraded to increase temporary working memory?",
+    "options": [
+      "PSU input connector",
+      "Case fan",
+      "Monitor cable",
+      "RAM"
+    ],
+    "correct": 3,
+    "explanation": "Adding compatible RAM can increase available main memory.",
+    "referencePoint": 1,
+    "id": "HWR27"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which component most directly determines how many CPU instructions can be executed?",
+    "options": [
+      "Printer tray",
+      "Keyboard",
+      "CPU",
+      "Speaker"
+    ],
+    "correct": 2,
+    "explanation": "CPU hardware executes program instructions.",
+    "referencePoint": 0,
+    "id": "HWR28"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which component contains multiple processing cores?",
+    "options": [
+      "CPU",
+      "Mechanical keyboard",
+      "USB cable",
+      "HDMI cable"
+    ],
+    "correct": 0,
+    "explanation": "Modern CPUs often contain several processing cores.",
+    "referencePoint": 0,
+    "id": "HWR29"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which storage interface is used by many modern high-speed SSDs?",
+    "options": [
+      "Audio jack",
+      "VGA analog only",
+      "NVMe over PCIe",
+      "PS/2"
+    ],
+    "correct": 2,
+    "explanation": "NVMe commonly communicates over PCIe for SSDs.",
+    "referencePoint": 7,
+    "id": "HWR30"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which interface is common for many 2.5-inch SATA SSDs?",
+    "options": [
+      "DIMM",
+      "HDMI",
+      "SATA",
+      "DVI"
+    ],
+    "correct": 2,
+    "explanation": "SATA connects compatible storage devices.",
+    "referencePoint": 7,
+    "id": "HWR31"
+  },
+  {
+    "topic": "HWR",
+    "question": "What is a peripheral device?",
+    "options": [
+      "A network password",
+      "A Kotlin operator",
+      "Hardware connected for input, output or additional functions",
+      "A special binary digit"
+    ],
+    "correct": 2,
+    "explanation": "Keyboards, mice and printers are examples of peripherals.",
+    "referencePoint": 6,
+    "id": "HWR32"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which of these is an example of secondary storage?",
+    "options": [
+      "SSD",
+      "Program counter",
+      "CPU register",
+      "L1 cache"
+    ],
+    "correct": 0,
+    "explanation": "An SSD is persistent storage rather than processor working registers.",
+    "referencePoint": 7,
+    "id": "HWR33"
+  },
+  {
+    "topic": "HWR",
+    "question": "What does the term form factor describe for a computer component?",
+    "options": [
+      "Its password rules",
+      "Its web address",
+      "Its software license",
+      "Its physical size and mounting format"
+    ],
+    "correct": 3,
+    "explanation": "Form factors describe dimensions and compatibility shapes.",
+    "referencePoint": 3,
+    "id": "HWR34"
+  },
+  {
+    "topic": "HWR",
+    "question": "What should be checked before buying RAM for a motherboard?",
+    "options": [
+      "Memory generation and supported specifications",
+      "Internet browser theme",
+      "Desktop background image",
+      "Mouse model"
+    ],
+    "correct": 0,
+    "explanation": "RAM must match the motherboard and processor memory support.",
+    "referencePoint": 3,
+    "id": "HWR35"
+  },
+  {
+    "topic": "HWR",
+    "question": "What is an operating system stored on before booting?",
+    "options": [
+      "Keyboard buffer only",
+      "Monitor memory only",
+      "Nonvolatile storage such as SSD/HDD",
+      "CPU register only"
+    ],
+    "correct": 2,
+    "explanation": "The OS is kept on storage and loaded into memory at startup.",
+    "referencePoint": 9,
+    "id": "HWR36"
+  },
+  {
+    "topic": "HWR",
+    "question": "Which component performs the main arithmetic and control operations?",
+    "options": [
+      "Printer",
+      "CPU",
+      "PSU",
+      "Monitor"
+    ],
+    "correct": 1,
+    "explanation": "The CPU carries out arithmetic, logic and control instructions.",
+    "referencePoint": 0,
+    "id": "HWR37"
+  },
+  {
+    "topic": "HWR",
+    "question": "What is an expansion card?",
+    "options": [
+      "A paper certificate",
+      "A board that adds functions through a compatible slot",
+      "A network webpage",
+      "A file compression program"
+    ],
+    "correct": 1,
+    "explanation": "Expansion cards add capabilities such as graphics or networking.",
+    "referencePoint": 3,
+    "id": "HWR38"
+  },
+  {
+    "topic": "HWR",
+    "question": "A game struggles to render complex 3D scenes. Which component is most directly responsible for graphics rendering?",
+    "options": [
+      "GPU",
+      "Printer",
+      "Keyboard",
+      "Network switch"
+    ],
+    "correct": 0,
+    "explanation": "The GPU commonly accelerates 3D rendering.",
+    "referencePoint": 4,
+    "id": "HWR39"
+  },
+  {
+    "topic": "HWR",
+    "question": "A student needs to scan a printed assignment into a computer. Which device helps?",
+    "options": [
+      "PSU",
+      "Scanner",
+      "Projector",
+      "Speaker"
+    ],
+    "correct": 1,
+    "explanation": "Scanners convert paper documents into digital images.",
+    "referencePoint": 6,
+    "id": "HWR40"
+  },
+  {
+    "topic": "HWR",
+    "question": "A student needs to output a report onto paper. Which device should they use?",
+    "options": [
+      "SSD",
+      "Printer",
+      "Mouse",
+      "Microphone"
+    ],
+    "correct": 1,
+    "explanation": "Printers convert digital documents into printed pages.",
+    "referencePoint": 6,
+    "id": "HWR41"
+  },
+  {
+    "topic": "HWR",
+    "question": "A user needs to connect a laptop to a monitor with a compatible digital video cable. Which common port fits?",
+    "options": [
+      "RJ11 telephone jack",
+      "DIMM slot",
+      "HDMI",
+      "SATA power"
+    ],
+    "correct": 2,
+    "explanation": "HDMI is a common connection for video output.",
+    "referencePoint": 8,
+    "id": "HWR42"
+  },
+  {
+    "topic": "HWR",
+    "question": "A PC freezes when many programs are open and uses most available working memory. Which part is relevant?",
+    "options": [
+      "RAM",
+      "Mouse pad",
+      "USB cable",
+      "Printer"
+    ],
+    "correct": 0,
+    "explanation": "RAM capacity affects the number of active programs and data held in memory.",
+    "referencePoint": 1,
+    "id": "HWR43"
+  },
+  {
+    "topic": "HWR",
+    "question": "A saved document remains available after a complete shutdown. Which component typically kept it?",
+    "options": [
+      "CPU cache",
+      "SSD or HDD",
+      "RAM only",
+      "Keyboard buffer"
+    ],
+    "correct": 1,
+    "explanation": "Persistent storage retains saved documents.",
+    "referencePoint": 7,
+    "id": "HWR44"
+  },
+  {
+    "topic": "HWR",
+    "question": "A CPU gets unusually hot. Which component should be inspected by a qualified technician?",
+    "options": [
+      "Cooling system",
+      "Router password",
+      "Web browser bookmarks",
+      "Screen brightness"
+    ],
+    "correct": 0,
+    "explanation": "CPU cooling is responsible for removing processor heat.",
+    "referencePoint": 5,
+    "id": "HWR45"
+  },
+  {
+    "topic": "HWR",
+    "question": "A computer starts firmware setup before loading its operating system. Which software is running?",
+    "options": [
+      "A music player",
+      "A text editor",
+      "A web page",
+      "UEFI or BIOS firmware"
+    ],
+    "correct": 3,
+    "explanation": "Firmware starts the platform before loading the operating system.",
+    "referencePoint": 9,
+    "id": "HWR46"
+  },
+  {
+    "topic": "HWR",
+    "question": "A desktop system has a compatible empty DIMM slot and needs more working memory. What type of part is relevant?",
+    "options": [
+      "RAM module",
+      "Mouse",
+      "Headphones",
+      "HDMI adapter"
+    ],
+    "correct": 0,
+    "explanation": "Compatible DIMM RAM provides more working memory.",
+    "referencePoint": 3,
+    "id": "HWR47"
+  },
+  {
+    "topic": "HWR",
+    "question": "A student wants to record their voice into a computer. Which peripheral is most appropriate?",
+    "options": [
+      "Printer",
+      "Monitor",
+      "Speaker",
+      "Microphone"
+    ],
+    "correct": 3,
+    "explanation": "A microphone captures sound as an input.",
+    "referencePoint": 6,
+    "id": "HWR48"
+  },
+  {
+    "topic": "HWR",
+    "question": "A desktop lacks a compatible slot for a proposed graphics card. What should be checked?",
+    "options": [
+      "Motherboard expansion compatibility",
+      "Keyboard language",
+      "Wallpaper size",
+      "Printer ink level"
+    ],
+    "correct": 0,
+    "explanation": "An expansion card must match supported motherboard slots and system requirements.",
+    "referencePoint": 3,
+    "id": "HWR49"
+  },
+  {
+    "topic": "HWR",
+    "question": "A PC does not receive proper electrical power. Which component is related to power delivery?",
+    "options": [
+      "Mouse wheel",
+      "Power supply unit",
+      "SSD label",
+      "Webcam lens"
+    ],
+    "correct": 1,
+    "explanation": "The PSU supplies regulated electrical power to internal components.",
+    "referencePoint": 2,
+    "id": "HWR50"
+  }
+]

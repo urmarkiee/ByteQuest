@@ -1,0 +1,11 @@
+<resources>
+  <style name="Theme.ByteQuest" parent="android:style/Theme.Material.Light.NoActionBar">
+    <item name="android:colorAccent">#06D1F6</item>
+    <item name="android:statusBarColor">#030713</item>
+    <item name="android:navigationBarColor">#030713</item>
+    <item name="android:windowLightStatusBar">false</item>
+    <item name="android:windowLightNavigationBar">false</item>
+    <item name="android:fontFamily">sans</item>
+    <item name="android:windowActionModeOverlay">true</item>
+  </style>
+</resources>
